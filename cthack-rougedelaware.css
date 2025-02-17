@@ -1,0 +1,725 @@
+/* # correspond à id (unique dans la page)
+. correspond à la classe   */
+
+
+@font-face {
+  font-family: "3rd Man";
+  src: url("./assets/fonts/3rd_man.otf");
+}
+
+@font-face {
+  font-family: "Justyna";
+  src: url("./assets/fonts/justyna_sokolowska.otf");
+}
+
+@font-face {
+  font-family: "Minion";
+  src: url("./assets/fonts/minion_pro_regular.otf");
+}
+
+@font-face {
+	font-family: "Misproject";
+	src: url("./assets/fonts/misproje.ttf");
+}
+
+@font-face {
+	font-family: "Rambla Italic";
+	src: url("./assets/fonts/rambla_italic.ttf");
+}
+
+@font-face {
+	font-family: "Rambla Regular";
+	src: url("./assets/fonts/rambla_regular.ttf");
+}
+
+
+
+.journal-entry-page h1 {
+  font-family: "Misproject";
+  font-size: 60px;
+  text-align: center;
+  color: #791013;
+  padding-left: 3px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.journal-entry-page h2 {
+  font-family: "Misproject";
+  font-size: 40px;
+  color: #791013;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.journal-entry-page .perso h2 {
+  font-family: "Misproject";
+  font-size: 40px;
+  color: #791013;
+  text-align: left;
+  padding-left: 3px;
+}
+
+.journal-entry-page h3 {
+  font-family: "Misproject";
+  font-size: 30px;
+  text-align: left;
+  border: none;
+  color: #47443C;
+  margin-left: 5px;
+}
+
+.journal-entry-page .perso h3 {
+  font-family: "Misproject";
+  font-size: 30px;
+  text-align: center;
+  color: #47443C;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.journal-entry-page .stats h3 {
+  font-family: "Misproject";
+  font-size: 32px;
+  text-align: center;
+  color: #47443C;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+
+
+.journal-entry-page h4 {
+  font-family: "Misproject";
+  text-align: center;
+  font-size: 28px;
+  /*border: none;*/
+  border-bottom: #47443C solid;
+  color: #47443C;
+  text-transform: uppercase;
+}
+
+.journal-entry-page h5 {
+  font-family: "Misproject";
+  font-size: 20px;
+  border: none;
+  color: #4b596f;
+  text-transform: uppercase;
+}
+
+.journal-entry-page img {
+  border: none;
+}
+
+.journal-entry-page .deco img {
+  border: none;
+}
+
+.cthack .window-content h1 {
+  font-family: "Misproject";
+  font-size: 36px;
+}
+
+.cthack .window-content h2 {
+  font-family: "Misproject";
+  font-size: 28px;
+}
+
+#journal h2 {
+  font-family: "Misproject";
+  font-size: 40px;
+  color: white;
+  padding-left: 3px;
+}
+
+#journal h3,
+#scenes h3,
+#actors h3,
+#items h3,
+#tables h3{
+  font-family: "Misproject";
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+#journal h4,
+#scenes h4 {
+  font-family: "Misproject";
+  font-size: 24px;
+  border: none;
+  margin-left: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sheet.journal-entry .journal-entry-content {
+  background: url("./assets/artwork/fond.webp");
+}
+
+.delaware-mod a.content-link,
+a.inline-roll {
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+}
+
+.delaware-mod p {
+  font-family: "Rambla Regular";
+  font-size: 18px;
+  text-indent: 0.2cm;
+  text-align: justify;
+  padding: 3px 10px 3px 10px;
+}
+
+
+.delaware-mod .red {
+  font-family: "Rambla Regular";
+  font-size: 18px;
+  text-indent: 0.2cm;
+  text-align: justify;
+  padding: 3px 10px 3px 10px;
+  color: #791013;
+}
+
+.delaware-mod .centre {
+  text-align: center;
+}
+
+.delaware-mod li {
+  font-family: "Rambla Regular";
+  font-size: 18px;
+}
+
+.delaware-mod em {
+  font-family: "Rambla Italic";
+  font-size: 18px;
+}
+
+.journal-entry-page table td {
+  padding: 5px;
+}
+
+.delaware-mod table th {
+  background-color: #153d55;
+  color: white;
+  font-family: "Background noise";
+  text-align: center;
+  font-size: 24px;
+}
+
+.delaware-mod tr {
+  font-family: "Calibri";
+  font-size: 18px;
+}
+
+.delaware-mod td {
+  font-family: "Calibri";
+  font-size: 18px;
+  padding: 2px;
+}
+
+.delaware-mod .logo {
+  border: none;
+  content: url("./assets/artwork/logo_generique.webp");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.delaware-mod .logo-campagne {
+  border: none;
+  content: url("./assets/artwork/glyphe.webp");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.delaware-mod .credits-titre {
+  font-family: "Misproject";
+  font-size: 28px;
+  border: none;
+  color: #791013;
+  text-align: center;
+}
+
+.delaware-mod .credits-texte {
+  font-family: "Misproject";
+  font-size: 28px;
+  border: none;
+  color: #47443C;
+  text-align: center;
+}
+
+.delaware-mod .credits-copyright {
+  font-family: "Rambla Regular";
+  font-size: 16px;
+  border: none;
+  text-align: center;
+}
+
+.delaware-mod .credits-remerciement {
+  font-family: "Calibri";
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  text-align: justify;
+}
+
+.delaware-mod .carac-titre {
+  font-family: "Misproject";
+  font-size: 24px;
+  border: none;
+  color: #47443C;
+  text-align: center;
+}
+
+.delaware-mod .carac-val {
+  font-family: "Misproject";
+  font-size: 24px;
+  border: none;
+  color: #791013;
+  text-align: center;
+}
+
+
+
+
+.delaware-mod .note {
+  border: 20px solid transparent;
+  border-image: url('./assets/artwork/encart.webp') 80 round;
+  background-color: #d1cdcd;
+  border-image-outset: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  align-self: start;
+}
+
+.delaware-mod .note p {
+  font-family: "Rambla Regular";
+  font-size: 18px;
+  text-indent: 0.2cm;
+  text-align: justify;
+  padding: 3px 3px 3px 3px;
+}
+
+.delaware-mod .note2 {
+  background-size: 100% 100%;
+  background-color: #d1cdcd;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 10px;
+  border: #4b4b4b 6px solid;
+}
+
+.delaware-mod .note2 p {
+  font-family: "Rambla Regular";
+  font-size: 18px;
+  text-indent: 0.2cm;
+  text-align: justify;
+  padding: 3px 3px 3px 3px;
+}
+
+.delaware-mod .encart {
+  background-image: url("./assets/artwork/encart.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5px 20px 0px 20px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+}
+
+.delaware-mod .encart-petit {
+  background-image: url("./assets/artwork/encart_petit.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  padding: 5px 20px 0px 20px;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+}
+
+.delaware-mod .avertissement {
+  background-image: url("./assets/artwork/fond_page.webp");
+  padding: 20px 20px 20px 20px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid;
+}
+
+.delaware-mod .avertissement-titre {
+  font-family: "Misproject";
+  font-size: 34px;
+  border: none;
+  color: #565e6f;
+  text-align: center;
+}
+
+.delaware-mod .sommaire-titre {
+  font-family: "Misproject";
+  font-size: 35px;
+  font-style: bold;
+  border: none;
+  color: #47443C;
+  text-transform: uppercase;
+}
+
+
+.delaware-mod .sommaire-texte {
+  font-family: "Misproject";
+  font-size: 30px;
+  border: none;
+  color: #791013;
+}
+
+.delaware-mod .pnj-portrait {
+  width: 400px;
+}
+
+.delaware-mod .pnj-portrait-petit {
+  width: 200px;
+}
+
+.delaware-mod .pj-portrait {
+  width: 350px;
+}
+
+#blockquote {
+  font-family: "Calibri";
+  color: red;
+  margin-left: 5px;
+  text-indent: 0cm;
+  padding-left: 5px;
+}
+
+.delaware-mod .exemple {
+  font-family: "Calibri";
+  color: slategray;
+  font-style: italic;
+  margin-left: 5px;
+  text-indent: 0cm;
+  padding-left: 5px;
+}
+
+.delaware-mod .experience {
+  background-color: #757a8d;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+}
+
+.journal-entry-page .experience h2 {
+  font-family: "Misproject";
+  font-size: 40px;
+  color: white;
+  padding-left: 3px;
+}
+
+.delaware-mod .adj-titre {
+  text-transform: uppercase;
+  font-family: "Background noise";
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.delaware-mod .image-large {
+  margin-right: 35px;
+}
+
+.delaware-mod .image-large img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.delaware-mod .image-small img {
+  width: 75%;
+  object-fit: contain;
+}
+
+.delaware-mod .encart-technique {
+  background-image: url("./assets/artwork/encart_technique.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5px 20px 0px 20px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+  color: whitesmoke;
+}
+
+.delaware-mod .spaced-list li {
+  padding-top: 1em;
+}
+
+.delaware-mod .insert-droite {
+  max-width: 55%;
+  padding-right: 10px;
+  padding-left: 5px;
+  margin-right: 10px;
+  break-inside: avoid;
+  font-style: normal;
+  float: right;
+  border: none;
+  text-align: center;
+}
+
+.delaware-mod .insert-gauche {
+  max-width: 40%;
+  padding-right: 5px;
+  padding-left: 10px;
+  margin-left: 10px;
+  break-inside: avoid;
+  font-style: normal;
+  float: left;
+  border: none;
+  text-align: center;
+}
+
+
+.delaware-mod .insert-pnj-droite {
+  max-width: 49%;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-right: 0px;
+  break-inside: avoid;
+  font-style: normal;
+  float: right;
+  border: none;
+  text-align: center;
+}
+
+.delaware-mod .insert-pnj-gauche {
+  max-width: 49%;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-left: 0px;
+  break-inside: avoid;
+  font-style: normal;
+  float: left;
+  border: none;
+  text-align: center;
+}
+
+.delaware-mod .adj-vertical-petit {
+  width: 300px;
+  height: 400px;
+}
+
+.delaware-mod .adj-vertical-grand {
+  width: 600px;
+}
+
+.delaware-mod .adj-horizontal-petit {
+  width: 400px;
+}
+
+.delaware-mod .adj-horizontal-grand {
+  width: 600px;
+}
+
+.delaware-mod .agenda td {
+  background-color : #666666; 
+}
+
+.delaware-mod .table-experience {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid dark;
+  line-height: 1;
+}
+
+.delaware-mod .table-experience th {
+  letter-spacing: 2px;
+}
+
+.delaware-mod .table-experience th:nth-child(1) {
+  width: 10%;
+}
+
+.delaware-mod .table-experience td:nth-child(1) {
+  width: 10%;
+}
+
+.delaware-mod .table-experience td:nth-child(2) {
+  width: 5%;
+}
+
+.delaware-mod .table-experience td:nth-child(3) {
+  width: 35%;
+}
+
+.delaware-mod .table-experience td:nth-child(4) {
+  width: 5%;
+}
+
+.delaware-mod .table-experience td:nth-child(5) {
+  width: 45%;
+}
+
+.delaware-mod .table-experience th, td {
+  padding: 5px;
+}
+
+.delaware-mod .danger {
+  font-family: "Calibri";
+  color: red;
+}
+
+.delaware-mod form h1 {
+  font-family: "Misproject";
+  font-size: 36px;
+  text-align: center;
+  color: #4b596f;
+  padding-left: 3px;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.delaware-mod .form-pressure .form-group {
+  justify-content: center;
+}
+
+.delaware-mod form .save {
+  color: #4b596f;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.delaware-mod form .save input {
+  font-family: "Calibri";
+  text-transform: uppercase;
+  border-color:#153d55;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.delaware-mod .form-experience .save input {
+  font-size: 22px;
+}
+
+.delaware-mod .logo-sceau {
+  border: none;
+  content: url("./assets/artwork/sceau_logo.webp");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.delaware-mod .logo-pentacle {
+  border: none;
+  content: url("./assets/artwork/ambiance/sceau_pentacle2.webp");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+i.delaware {
+  width: 36px;
+  height: 36px;
+  background-image: url("./assets/artwork/glyphe2icon.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  filter: grayscale(1);
+  transition: 0.3s;
+}
+
+i.icon-rouge-delaware-couleur {
+  width: 36px;
+	height: 36px;
+	background-image: url("./assets/artwork/badge.webp");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	transition: 0.3s;
+}
+
+i.icon-sixieme-sens-couleur {
+  width: 36px;
+	height: 36px;
+	background-image: url("./assets/artwork/logo_sixieme_sceau.webp");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	transition: 0.3s;
+}
+
+i.icon-affaires-connexes-couleur {
+  width: 36px;
+	height: 36px;
+	background-image: url("./assets/artwork/logo_affaires_connexes.webp");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	transition: 0.3s;
+}
+
+.delaware-mod .two-col {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.delaware-mod .two-col p:first-child {
+  padding-right: 10px; 
+  align-self: start;
+}
+
+.delaware-mod .three-col {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.delaware-mod .note .img {
+  width: auto;
+}
+
+.delaware-mod .no-border {
+  border: none;
+}
+
+.delaware-mod .border-bot {
+  border-bottom: #47443C solid;
+}
+
+.delaware-mod .img-center {
+  text-align:center;
+  margin:auto;
+  display:flex;
+}
+
+#pause > img {
+  content: url("./assets/artwork/badge.webp");
+  height: 192px;
+  width: 192px;
+  top: -45px;
+  left: calc(50% - 96px);
+}

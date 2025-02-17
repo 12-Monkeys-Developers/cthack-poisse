@@ -1,0 +1,43 @@
+{
+  "id": "cthack-poisse",
+  "title": "Cthulhu Hack - Rouge Delaware - Perdus dans la Poisse",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cthack",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+        {
+            "name": "Carter"
+        },
+        {
+            "name": "Kristov"
+        }
+    ],
+    "styles": [
+      "cthack-rougedelaware.css"
+  ],
+  "packs": [
+    {
+      "name": "poisse",
+      "label": "Perdus dans la poisse",
+      "path": "packs/poisse",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cthack",
+      "flags": {}
+    }
+  ]
+}
