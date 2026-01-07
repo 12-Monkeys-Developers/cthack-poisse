@@ -123,7 +123,7 @@ jobs:
             `# The files that will be included.` \
             module.json                          \
             poisse.mjs                           \
-            secthack-rougedelaware.css           \
+            cthack-rougedelaware.css           \
             README.md                            \
             CHANGELOG.md                         \
             module/                              \
