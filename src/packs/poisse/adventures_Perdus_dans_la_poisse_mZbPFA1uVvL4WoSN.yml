@@ -32,12 +32,6 @@ actors:
     _id: xc4sPJYomHEDycZI
     img: modules/cthack-poisse/assets/characters/pc/kadeem_harrigan.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
-        - biography
-        - notes
-        - equipment
       locked: true
       saves:
         str:
@@ -107,6 +101,9 @@ actors:
         particulier, les Bloods (qui donnent une mauvaise image aux
         Afro-Américains) et les Pagans.</p>
       equipment: ''
+      encumbrance:
+        value: 0
+        max: 0
     prototypeToken:
       name: Kadeem Harrigan
       displayName: 0
@@ -199,24 +196,16 @@ actors:
         _stats:
           compendiumSource: Item.XKKv6w1z3wP0b208
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739732135977
-          modifiedTime: 1739732135977
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          Q9eXSbNsJCeaMOSw: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Le personnage b&eacute;n&eacute;ficie d&rsquo;un Avantage lors
-            des Sauvegardes visant &agrave; &eacute;viter les pi&egrave;ges ou
-            les machines pouvant le blesser ou l&rsquo;entraver.</p>
+            <p>Le personnage bénéficie d’un Avantage lors des Sauvegardes visant
+            à éviter les pièges ou les machines pouvant le blesser ou
+            l’entraver.</p>
           key: SELPRE
           uses:
             value: 0
@@ -230,6 +219,8 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - _id: GT6gOv72xI6lUUVn
         name: Agile
         type: ability
@@ -239,25 +230,16 @@ actors:
         _stats:
           compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739732145546
-          modifiedTime: 1739732145546
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          gCtskyVJVCb7NnMV: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Le personnage b&eacute;n&eacute;ficie d'un <strong>Avantage
-            </strong>pour les <strong>Sauvegardes </strong>n&eacute;cessitant
-            des capacti&eacute;s athl&eacute;tiques, comme grimper, sauter ou se
-            balancer.</p>
+            <p>Le personnage bénéficie d'un <strong>Avantage </strong>pour les
+            <strong>Sauvegardes </strong>nécessitant des capactiés athlétiques,
+            comme grimper, sauter ou se balancer.</p>
           key: SWILEA
           uses:
             value: 0
@@ -271,90 +253,83 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - name: Nouveau Arme
         type: weapon
         _id: TMaZqhl0pK9LP5bE
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           dice: ''
           range: ''
+          size:
+            equipped: 0
+            unequipped: 0
+            status: equipped
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739732274079
-          modifiedTime: 1739732274079
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
       - folder: z4YdoUBlTMpqwJKY
         name: Gilet pare-balles
         type: item
         _id: AnbQRlbfud8yuSt9
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           dice: ''
           description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+          size:
+            equipped: 0
+            unequipped: 0
+            status: equipped
         effects: []
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780374365
-          modifiedTime: 1739780374365
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739731992330
-      modifiedTime: 1739733281678
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: LdFJClEp6TtOSE2J
     name: Vashti Najafi
     type: character
     _id: bgqVDHYZMZImVlME
     img: modules/cthack-poisse/assets/characters/pc/vashti_najafi.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
-        - biography
-        - notes
-        - equipment
       locked: true
       saves:
         str:
@@ -420,6 +395,9 @@ actors:
         profiler à Quantico. Là, elle cède à la pression, et prétend souffrir de
         troubles de comportements pour prendre de l’adderall. Le FBI découvre sa
         manigance et la refourgue à Guy Moore et au Bureau de Liaisons.</p>
+      encumbrance:
+        value: 0
+        max: 0
     prototypeToken:
       name: Vashti Najafi
       displayName: 0
@@ -512,24 +490,16 @@ actors:
         _stats:
           compendiumSource: Item.uLeoN6S4r5DWyxoR
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739733038803
-          modifiedTime: 1739733038803
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          Q9eXSbNsJCeaMOSw: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Une fois par heure de jeu, vous r&eacute;ussissez automatiquement
-            une <strong>Sauvegarde</strong> <strong>d&rsquo;Intelligence
-            </strong>ou de <strong>Sagesse</strong>.</p>
+            <p>Une fois par heure de jeu, vous réussissez automatiquement une
+            <strong>Sauvegarde</strong> <strong>d’Intelligence </strong>ou de
+            <strong>Sagesse</strong>.</p>
           key: ERU
           uses:
             value: 1
@@ -543,13 +513,13 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - name: Polyvalent
         type: ability
         _id: GtwSzpmRtIg72jYv
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           key: nouveau-capacite
           uses:
@@ -567,77 +537,66 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780086845
-          modifiedTime: 1739780256233
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
       - folder: z4YdoUBlTMpqwJKY
         name: Gilet pare-balles
         type: item
         _id: PcRH9cI20zQhD3b2
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           dice: ''
           description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+          size:
+            equipped: 0
+            unequipped: 0
+            status: equipped
         effects: []
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780399320
-          modifiedTime: 1739780399320
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
-      compendiumSource: null
+      compendiumSource: Actor.bgqVDHYZMZImVlME
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739732877255
-      modifiedTime: 1739733317812
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: LdFJClEp6TtOSE2J
     name: David McCarthy
     type: character
     _id: ukZPQNhOxXpTgmhr
     img: modules/cthack-poisse/assets/characters/pc/david_mccarthy.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
-        - biography
-        - notes
-        - equipment
       locked: true
       saves:
         str:
@@ -702,6 +661,9 @@ actors:
         sur le carreau. Les services internes l’ont innocenté, mais l’esclandre
         a forcé sa hiérarchie à le muter au bureau des Liaisons. Stressé et
         fatigué, David se remet encore d’un ulcère récent (et mal soigné).</p>
+      encumbrance:
+        value: 0
+        max: 0
     prototypeToken:
       name: David McCarthy
       displayName: 0
@@ -794,25 +756,17 @@ actors:
         _stats:
           compendiumSource: Item.3SfNP7zMMWMUgboC
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739733418152
-          modifiedTime: 1739733418152
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          Q9eXSbNsJCeaMOSw: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Vous b&eacute;n&eacute;ficiez d&rsquo;un
-            <strong>Avantage</strong> pour les <strong>Sauvegardes</strong>
-            contre la tromperie,le contr&ocirc;le mental ou lorsque votre
-            investigateur tente de tromper son interlocuteur.</p>
+            <p>Vous bénéficiez d’un <strong>Avantage</strong> pour les
+            <strong>Sauvegardes</strong> contre la tromperie,le contrôle mental
+            ou lorsque votre investigateur tente de tromper son
+            interlocuteur.</p>
           key: IND
           uses:
             value: 0
@@ -826,13 +780,13 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - name: Dites-moi tout
         type: ability
         _id: kqzqHUg5tOT9xphv
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           key: nouveau-capacite
           uses:
@@ -850,77 +804,66 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780165742
-          modifiedTime: 1739780222863
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
       - folder: z4YdoUBlTMpqwJKY
         name: Gilet pare-balles
         type: item
         _id: gGiYZdmps6Fiu3Zd
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           dice: ''
           description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+          size:
+            equipped: 0
+            unequipped: 0
+            status: equipped
         effects: []
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780356315
-          modifiedTime: 1739780356315
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
-      compendiumSource: null
+      compendiumSource: Actor.ukZPQNhOxXpTgmhr
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739733333703
-      modifiedTime: 1739733555019
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: LdFJClEp6TtOSE2J
     name: Lucia Rodriguez
     type: character
     _id: 0dOPomcDtMT1YuEO
     img: modules/cthack-poisse/assets/characters/pc/lucia_rodriguez.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
-        - biography
-        - notes
-        - equipment
       locked: true
       saves:
         str:
@@ -991,6 +934,9 @@ actors:
         faire le lien avec la Police Marine Unit de la ville. Dépitée, la jeune
         femme déteste la glaciale Philadelphie, et sa famille et ses proches lui
         manquent…</p>
+      encumbrance:
+        value: 0
+        max: 0
     prototypeToken:
       name: Lucia Rodriguez
       displayName: 0
@@ -1083,24 +1029,16 @@ actors:
         _stats:
           compendiumSource: Item.XKKv6w1z3wP0b208
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739733696228
-          modifiedTime: 1739733696228
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          Q9eXSbNsJCeaMOSw: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Le personnage b&eacute;n&eacute;ficie d&rsquo;un Avantage lors
-            des Sauvegardes visant &agrave; &eacute;viter les pi&egrave;ges ou
-            les machines pouvant le blesser ou l&rsquo;entraver.</p>
+            <p>Le personnage bénéficie d’un Avantage lors des Sauvegardes visant
+            à éviter les pièges ou les machines pouvant le blesser ou
+            l’entraver.</p>
           key: SELPRE
           uses:
             value: 0
@@ -1114,6 +1052,8 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - _id: fWky2byMHgwFOhxv
         name: Agile
         type: ability
@@ -1123,25 +1063,16 @@ actors:
         _stats:
           compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739733701484
-          modifiedTime: 1739733701484
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
-        ownership:
-          default: 0
-          gCtskyVJVCb7NnMV: 3
-          LYduACDti2s7nrlE: 3
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         system:
-          htmlFields:
-            - description
           description: >-
-            <p>Le personnage b&eacute;n&eacute;ficie d'un <strong>Avantage
-            </strong>pour les <strong>Sauvegardes </strong>n&eacute;cessitant
-            des capacti&eacute;s athl&eacute;tiques, comme grimper, sauter ou se
-            balancer.</p>
+            <p>Le personnage bénéficie d'un <strong>Avantage </strong>pour les
+            <strong>Sauvegardes </strong>nécessitant des capactiés athlétiques,
+            comme grimper, sauter ou se balancer.</p>
           key: SWILEA
           uses:
             value: 0
@@ -1155,60 +1086,57 @@ actors:
           advantageText: ''
         folder: null
         sort: 0
+        ownership:
+          default: 0
       - folder: z4YdoUBlTMpqwJKY
         name: Gilet pare-balles
         type: item
         _id: zYM3oyHTQ1mHZkqP
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           dice: ''
           description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+          size:
+            equipped: 0
+            unequipped: 0
+            status: equipped
         effects: []
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780387764
-          modifiedTime: 1739780387764
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
-      compendiumSource: null
+      compendiumSource: Actor.0dOPomcDtMT1YuEO
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739733569892
-      modifiedTime: 1739733701469
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: umycQsilwONOvrCB
     name: Blood
     type: opponent
     _id: 1BSRXJzxYM0SvlXP
     img: modules/cthack-poisse/assets/characters/npc/bloods.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
       locked: true
       hitDice: 1
       armor: 1
@@ -1311,8 +1239,6 @@ actors:
         _id: MxSB7j7uYx8Xduns
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           nb: 1
           damage: 4
@@ -1320,47 +1246,40 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739721039268
-          modifiedTime: 1739721055235
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739720981896
-      modifiedTime: 1739721443054
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: umycQsilwONOvrCB
     name: Profond
     type: opponent
     _id: Z0FEJm3iY5s9Ko6p
     img: modules/cthack-poisse/assets/characters/npc/profond.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
       locked: true
       hitDice: 4
       armor: 6
@@ -1457,8 +1376,6 @@ actors:
         _id: TltWFlQzGmYJm6Hl
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           nb: 1
           damage: 5
@@ -1466,27 +1383,22 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739728081735
-          modifiedTime: 1739728087289
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
       - name: Amphibie
         type: opponentAbility
         _id: 1czE5UqDvmjgkFeH
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           uses:
             value: 0
@@ -1497,27 +1409,22 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739728095568
-          modifiedTime: 1739728125222
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
       - name: Modelage
         type: opponentAbility
         _id: PesC9InzsdYVIV8R
         img: icons/svg/item-bag.svg
         system:
-          htmlFields:
-            - description
           locked: true
           uses:
             value: 0
@@ -1528,47 +1435,40 @@ actors:
         effects: []
         folder: null
         sort: 0
-        ownership:
-          default: 0
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739728133927
-          modifiedTime: 1739728165742
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
+        ownership:
+          default: 0
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739728051760
-      modifiedTime: 1739728195683
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
   - folder: umycQsilwONOvrCB
     name: Nancy
     type: opponent
     _id: f8gh2MM2JmccPZQx
     img: modules/cthack-poisse/assets/characters/npc/nancy.webp
     system:
-      htmlFields:
-        - description
-        - shortDescription
       locked: true
       hitDice: 1
       armor: 0
@@ -1662,22 +1562,21 @@ actors:
     items: []
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags:
       cthack:
         SheetUnlocked: SheetUnlocked
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739733832193
-      modifiedTime: 1739733869574
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866023
+      modifiedTime: 1767818866023
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
 combats: []
 items:
   - folder: z4YdoUBlTMpqwJKY
@@ -1686,27 +1585,28 @@ items:
     _id: Fqe8BKh5suqGfVF1
     img: icons/svg/item-bag.svg
     system:
-      htmlFields:
-        - description
       locked: true
       dice: ''
       description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+      size:
+        equipped: 0
+        unequipped: 0
+        status: equipped
     effects: []
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739732244951
-      modifiedTime: 1739780341697
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866045
+      modifiedTime: 1767818866045
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
 journal:
   - folder: AWFdNTfthBXGc1U7
     name: PNJ
@@ -1728,21 +1628,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/npc/nancy.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739719015610
-          modifiedTime: 1739719028113
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 200000
         name: Les Bloods
         type: image
@@ -1759,21 +1656,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/npc/bloods.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739720927432
-          modifiedTime: 1739720932186
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 300000
         name: Les Profonds
         type: image
@@ -1790,37 +1684,33 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/npc/profond.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739731813188
-          modifiedTime: 1739731825843
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
     sort: 350000
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739719004255
-      modifiedTime: 1739733924725
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866052
+      modifiedTime: 1767818866052
+      lastModifiedBy: ROBweriRTrVO8ERT
     categories: []
+    ownership:
+      default: 0
   - folder: AWFdNTfthBXGc1U7
     name: Perdus dans la poisse
     _id: dUcYjaxFcmnaS0cO
@@ -1934,21 +1824,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739712161789
-          modifiedTime: 1739953514463
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 200000
         name: Démarrage sur les chapeaux de roue
         type: text
@@ -2009,21 +1896,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739716253738
-          modifiedTime: 1739953514491
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 300000
         name: L’histoire en quelques mots
         type: text
@@ -2073,21 +1957,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739718070649
-          modifiedTime: 1739733912850
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 400000
         name: L’intervention
         type: text
@@ -2153,21 +2034,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739719293890
-          modifiedTime: 1739723198194
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 500000
         name: La scène du crime
         type: text
@@ -2291,21 +2169,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739723350822
-          modifiedTime: 1739727925384
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 600000
         name: Sobriety now
         type: text
@@ -2419,21 +2294,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739724279610
-          modifiedTime: 1739725011218
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 700000
         name: Chez les parents de Nancy
         type: text
@@ -2545,21 +2417,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739725132775
-          modifiedTime: 1739953514550
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 800000
         name: Final
         type: text
@@ -2729,21 +2598,18 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739726063643
-          modifiedTime: 1739953514578
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 900000
         name: Prétirés
         type: text
@@ -2755,26 +2621,24 @@ journal:
         image: {}
         text:
           format: 1
-          content: "<div class=\"delaware-mod\">\n\n\n<h2 class=\"perso\">Kadeem Harrigan</h2>\n<div class=\"two-col\">\n\n  <img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\kadeem_harrigan.webp\" />\n  <p><span class=\"credits-texte centre\">Données personnelles</span><br />Ancien flic en uniforme de Baltimore, qui a été\n    refourgué au service des Liaisons après que les\n    services internes aient mené une enquête, sans\n    succès, sur l’impropriété de sa relation personnelle\n    avec une informatrice (une prostituée, retrouvée\n    morte). Costaud et habitué à la violence des rues,\n    il déteste les gangs, en particulier, les Bloods (qui\n    donnent une mauvaise image aux Afro-Américains)\n    et les Pagans.</p>\n</div>\n  \n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">9</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d4</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d4</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d10</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">16</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">D6/D8</span> </p>\n  \n\n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.</p>\n</div>\n\n\n  <h2 class=\"perso\">Vashti Najafi</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\vashti_najafi.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Iranienne née aux USA de troisième génération,\n  c’est une beauté persane, mais aussi une brillante\n  étudiante. Elle réussit ainsi à intégrer le FBI et envoyé\n  suivre une formation de profiler à Quantico. Là, elle\n  cède à la pression, et prétend souffrir de troubles de\n  comportements pour prendre de l’adderall. Le FBI\n  découvre sa manigance et la refourgue à Guy Moore\n  et au Bureau de Liaisons.</p>\n</div>\n\n<h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">7</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">15</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">12</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d12</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d4</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">10</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">1/1</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Polyvalent :</strong> une fois par session vous pouvez relancer un test de Sauvegarde que vous avez échoué.</p>\n  <p><strong>Érudit :</strong> une fois par heure de jeu, vous réussissez automatiquement une Sauvegarde d’Intelligence ou\n    de Sagesse.</p>\n</div>\n\n  <h2 class=\"perso\">David McCarthy</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\david_mccarthy.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Inspecteur aux moeurs (Vice) à Cleveland, suite\n  à une arrestation qui a fini en bavure, laissant un\n  jeune Afro-Américain sur le carreau. Les services\n  internes l’ont innocenté, mais l’esclandre a forcé sa\n  hiérarchie à le muter au bureau des Liaisons. Stressé\n  et fatigué, David se remet encore d’un ulcère récent\n  (et mal soigné).</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">11</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d8</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d6</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d8</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d8</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">14</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d6</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Dites-moi tout :</strong> le personnage bénéficie d’un Avantage aux tests visant à obtenir des aveux ou des\n  confidences.</p>\n  <p><strong>Indomptable :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes contre la tromperie, le\n    contrôle mental ou lorsqu’il tente de tromper son interlocuteur.</p>\n</div>\n\n  <h2 class=\"perso\">Lucia Rodriguez</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\lucia_rodriguez.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Fille de réfugiés cubains, elle a grandi sur les\n  plages d’Orlando et les petites frappes de la ville.\n  Malgré ces accointances, la jeune surfeuse devient\n  garde-côtes. Malheureusement, son dossier est\n  entaché par une accusation, fondée, de corruption\n  au sein de son équipe. Elle est innocente et, pour\n  sauver sa carrière, on la transfère au service des\n  Liaisons, avec la fonction honorifique de faire le\n  lien avec la Police Marine Unit de la ville. Dépitée, la\n  jeune femme déteste la glaciale Philadelphie, et sa\n  famille et ses proches lui manquent…</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">14</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d10</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d6</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d6</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">12</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d4</span> </p>\n  \n  \n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.\n      David</p>\n  </div>\n\n</div>"
+          content: "<div class=\"delaware-mod\"><h2 class=\"perso\">@UUID[Actor.xc4sPJYomHEDycZI]{Kadeem Harrigan}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\kadeem_harrigan.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Ancien flic en uniforme de Baltimore, qui a été refourgué au service des Liaisons après que les services internes aient mené une enquête, sans succès, sur l’impropriété de sa relation personnelle avec une informatrice (une prostituée, retrouvée morte). Costaud et habitué à la violence des rues, il déteste les gangs, en particulier, les Bloods (qui donnent une mauvaise image aux Afro-Américains) et les Pagans.</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">9</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d4</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d4</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d10</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">16</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">D6/D8</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges ou les machines pouvant le blesser ou l’entraver.</p><p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des capacités athlétiques, comme grimper, sauter ou se balancer.</p></div><h2 class=\"perso\">@UUID[Actor.bgqVDHYZMZImVlME]{Vashti Najafi}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\vashti_najafi.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Iranienne née aux USA de troisième génération, c’est une beauté persane, mais aussi une brillante étudiante. Elle réussit ainsi à intégrer le FBI et envoyé suivre une formation de profiler à Quantico. Là, elle cède à la pression, et prétend souffrir de troubles de comportements pour prendre de l’adderall. Le FBI découvre sa manigance et la refourgue à Guy Moore et au Bureau de Liaisons.</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">7</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">15</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">12</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d12</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d4</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">10</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">1/1</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Polyvalent :</strong> une fois par session vous pouvez relancer un test de Sauvegarde que vous avez échoué.</p><p><strong>Érudit :</strong> une fois par heure de jeu, vous réussissez automatiquement une Sauvegarde d’Intelligence ou de Sagesse.</p></div><h2 class=\"perso\">@UUID[Actor.ukZPQNhOxXpTgmhr]{David McCarthy}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\david_mccarthy.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Inspecteur aux moeurs (Vice) à Cleveland, suite à une arrestation qui a fini en bavure, laissant un jeune Afro-Américain sur le carreau. Les services internes l’ont innocenté, mais l’esclandre a forcé sa hiérarchie à le muter au bureau des Liaisons. Stressé et fatigué, David se remet encore d’un ulcère récent (et mal soigné).</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">11</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d6</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d8</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d8</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">14</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d6</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Dites-moi tout :</strong> le personnage bénéficie d’un Avantage aux tests visant à obtenir des aveux ou des confidences.</p><p><strong>Indomptable :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes contre la tromperie, le contrôle mental ou lorsqu’il tente de tromper son interlocuteur.</p></div><h2 class=\"perso\">@UUID[Actor.0dOPomcDtMT1YuEO]{Lucia Rodriguez}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\lucia_rodriguez.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Fille de réfugiés cubains, elle a grandi sur les plages d’Orlando et les petites frappes de la ville. Malgré ces accointances, la jeune surfeuse devient garde-côtes. Malheureusement, son dossier est entaché par une accusation, fondée, de corruption au sein de son équipe. Elle est innocente et, pour sauver sa carrière, on la transfère au service des Liaisons, avec la fonction honorifique de faire le lien avec la Police Marine Unit de la ville. Dépitée, la jeune femme déteste la glaciale Philadelphie, et sa famille et ses proches lui manquent…</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">14</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d6</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d6</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">12</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d4</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges ou les machines pouvant le blesser ou l’entraver.</p><p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des capacités athlétiques, comme grimper, sauter ou se balancer. David</p></div></div>"
         video:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739780449869
-          modifiedTime: 1739953514602
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: ROBweriRTrVO8ERT
+          modifiedTime: 1767819389743
         category: null
+        ownership:
+          default: -1
       - sort: 1000000
         name: Gamme Rouge Delaware
         type: text
@@ -2795,37 +2659,33 @@ journal:
           controls: true
           volume: 0.5
         src: null
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739806659595
-          modifiedTime: 1739806906311
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739712152997
-      modifiedTime: 1739722824112
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866052
+      modifiedTime: 1767818866052
+      lastModifiedBy: ROBweriRTrVO8ERT
     categories: []
+    ownership:
+      default: 0
   - folder: AWFdNTfthBXGc1U7
     name: Images
     _id: zbTpsqELJgyypsoV
@@ -2846,21 +2706,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/artwork/ambiance/intro.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739717410837
-          modifiedTime: 1739717415328
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 200000
         name: Planque
         type: image
@@ -2877,21 +2734,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/artwork/ambiance/planque.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739717532155
-          modifiedTime: 1739717536059
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 300000
         name: Enquête
         type: image
@@ -2908,21 +2762,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/artwork/ambiance/enquete.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739725961393
-          modifiedTime: 1739725965597
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 400000
         name: Plan de la déchetterie (MJ)
         type: image
@@ -2939,21 +2790,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/maps/dechetterie_mj.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739727433528
-          modifiedTime: 1739727439215
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 500000
         name: Plan de la déchetterie (PJ)
         type: image
@@ -2970,37 +2818,33 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/maps/dechetterie_pj.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739727449646
-          modifiedTime: 1739727455935
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
     sort: 300000
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739717334441
-      modifiedTime: 1739722822712
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866052
+      modifiedTime: 1767818866052
+      lastModifiedBy: ROBweriRTrVO8ERT
     categories: []
+    ownership:
+      default: 0
   - folder: AWFdNTfthBXGc1U7
     name: PJ
     _id: 6oeptpztRy680tzD
@@ -3021,21 +2865,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/pc/kadeem_harrigan.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739731858144
-          modifiedTime: 1739731868455
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 200000
         name: Vashti Najafi
         type: image
@@ -3052,21 +2893,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/pc/vashti_najafi.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739731884614
-          modifiedTime: 1739731889612
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 300000
         name: David McCarthy
         type: image
@@ -3083,21 +2921,18 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/pc/david_mccarthy.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739731908232
-          modifiedTime: 1739731913999
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
       - sort: 400000
         name: Lucia Rodriguez
         type: image
@@ -3114,42 +2949,37 @@ journal:
           controls: true
           volume: 0.5
         src: modules/cthack-poisse/assets/characters/pc/lucia_rodriguez.webp
-        ownership:
-          default: -1
-          LYduACDti2s7nrlE: 3
         flags: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.347'
-          systemId: cthack
-          systemVersion: 4.2.0
-          createdTime: 1739731948607
-          modifiedTime: 1739731954414
-          lastModifiedBy: LYduACDti2s7nrlE
           exportSource: null
+          coreVersion: '13.350'
+          systemId: cthack
+          systemVersion: 5.5.1
+          lastModifiedBy: null
         category: null
+        ownership:
+          default: -1
     sort: 400000
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739731841804
-      modifiedTime: 1739731845494
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866052
+      modifiedTime: 1767818866052
+      lastModifiedBy: ROBweriRTrVO8ERT
     categories: []
+    ownership:
+      default: 0
 scenes:
   - folder: S5h5SACplg5k4OZz
     name: Accueil
     _id: PKfwJUHO35fy5D78
-    active: true
     navigation: true
     navOrder: 0
     navName: ''
@@ -3236,24 +3066,23 @@ scenes:
     journalEntryPage: null
     weather: ''
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739717352364
-      modifiedTime: 1739717631740
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866073
+      modifiedTime: 1767818866944
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
+    active: false
   - folder: S5h5SACplg5k4OZz
     name: Enquête
     _id: GGoz389CW5qAEAWM
-    active: false
     navigation: true
     navOrder: 0
     navName: ''
@@ -3276,9 +3105,9 @@ scenes:
     height: 1088
     padding: 0.25
     initial:
-      x: null
-      'y': null
-      scale: 0.5
+      x: 1643
+      'y': 844
+      scale: 1.0581308177088735
     backgroundColor: '#000000'
     grid:
       type: 0
@@ -3340,24 +3169,23 @@ scenes:
     journalEntryPage: null
     weather: ''
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739725912237
-      modifiedTime: 1739725934627
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866073
+      modifiedTime: 1767819006168
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
+    active: false
   - folder: S5h5SACplg5k4OZz
     name: Plan de la déchetterie (MJ)
     _id: RYVTnVcZCwrNEKcM
-    active: false
     navigation: true
     navOrder: 0
     navName: ''
@@ -3444,23 +3272,22 @@ scenes:
     journalEntryPage: null
     weather: ''
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739727289908
-      modifiedTime: 1739727366490
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866073
+      modifiedTime: 1767818866944
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
+    active: false
   - folder: S5h5SACplg5k4OZz
     name: Plan de la déchetterie (PJ)
-    active: false
     navigation: false
     navOrder: 0
     navName: ''
@@ -3547,25 +3374,24 @@ scenes:
     journalEntryPage: null
     weather: ''
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: Scene.RYVTnVcZCwrNEKcM
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739727327242
-      modifiedTime: 1739727379344
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866073
+      modifiedTime: 1767818866944
+      lastModifiedBy: ROBweriRTrVO8ERT
     _id: Rf1VTeZrdy0tmi0m
+    ownership:
+      default: 0
+    active: false
   - folder: S5h5SACplg5k4OZz
     name: Planque
     _id: 2lDpregKOYCNKMH9
-    active: false
     navigation: true
     navOrder: 0
     navName: ''
@@ -3590,7 +3416,7 @@ scenes:
     initial:
       x: 1615
       'y': 747
-      scale: 0.897928163011065
+      scale: 1.0914372941909687
     backgroundColor: '#000000'
     grid:
       type: 0
@@ -3652,20 +3478,20 @@ scenes:
     journalEntryPage: null
     weather: ''
     sort: 0
-    ownership:
-      default: 0
-      LYduACDti2s7nrlE: 3
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739717440296
-      modifiedTime: 1739717616633
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866073
+      modifiedTime: 1767819027758
+      lastModifiedBy: ROBweriRTrVO8ERT
+    ownership:
+      default: 0
+    active: false
 tables: []
 macros: []
 cards: []
@@ -3683,13 +3509,13 @@ folders:
     _stats:
       compendiumSource: Folder.S5h5SACplg5k4OZz
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739712084171
-      modifiedTime: 1739712084171
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866082
+      modifiedTime: 1767818866082
+      lastModifiedBy: ROBweriRTrVO8ERT
   - name: Perdus dans la poisse
     sorting: a
     folder: null
@@ -3702,13 +3528,13 @@ folders:
     _stats:
       compendiumSource: Folder.ODWlTjw4eXS3Z6hn
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739712097539
-      modifiedTime: 1739712097539
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866082
+      modifiedTime: 1767818866082
+      lastModifiedBy: ROBweriRTrVO8ERT
   - name: PJ
     sorting: a
     folder: ODWlTjw4eXS3Z6hn
@@ -3721,13 +3547,11 @@ folders:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739720970033
-      modifiedTime: 1739720970033
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      lastModifiedBy: null
   - name: PNJ
     sorting: a
     folder: ODWlTjw4eXS3Z6hn
@@ -3740,13 +3564,11 @@ folders:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739720963100
-      modifiedTime: 1739720963100
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      lastModifiedBy: null
   - name: Perdus dans la poisse
     sorting: m
     folder: null
@@ -3759,13 +3581,13 @@ folders:
     _stats:
       compendiumSource: Folder.AWFdNTfthBXGc1U7
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739712061436
-      modifiedTime: 1739712066660
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866082
+      modifiedTime: 1767818866082
+      lastModifiedBy: ROBweriRTrVO8ERT
   - name: Perdus dans la poisse
     sorting: a
     folder: null
@@ -3778,24 +3600,24 @@ folders:
     _stats:
       compendiumSource: Folder.z4YdoUBlTMpqwJKY
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: cthack
-      systemVersion: 4.2.0
-      createdTime: 1739732217069
-      modifiedTime: 1739732217069
-      lastModifiedBy: LYduACDti2s7nrlE
       exportSource: null
+      coreVersion: '13.350'
+      systemId: cthack
+      systemVersion: 5.5.1
+      createdTime: 1767818866082
+      modifiedTime: 1767818866082
+      lastModifiedBy: ROBweriRTrVO8ERT
 _id: mZbPFA1uVvL4WoSN
 folder: null
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: cthack
   systemVersion: 4.2.0
   createdTime: 1739734088690
-  modifiedTime: 1739953559025
-  lastModifiedBy: LYduACDti2s7nrlE
+  modifiedTime: 1767819449843
+  lastModifiedBy: ROBweriRTrVO8ERT
   exportSource: null
 _key: '!adventures!mZbPFA1uVvL4WoSN'
