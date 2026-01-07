@@ -1,0 +1,3801 @@
+name: Perdus dans la poisse
+img: modules/cthack-poisse/assets/artwork/ambiance/enquete.webp
+caption: ''
+sort: 0
+description: >-
+  <p>Ce court scénario d’introduction, conçu pour être joué en 3 à 4 heures, a
+  pour objectif de présenter les bases de l’univers de <a
+  href="https://www.les12singes.com/rouge-delaware/246-rouge-delaware.html"><em>Rouge
+  Delaware</em></a> : un monde d’enquête policière noire, sale, et horrifique.
+  Il utilise des éléments d’intrigue tirés des suppléments <a
+  href="https://www.les12singes.com/rouge-delaware/384-affaires-connexes.html"><em>Affaires
+  Connexes</em></a> et <a
+  href="https://www.les12singes.com/rouge-delaware/383-sixieme-sceau.html"><em>Le
+  Sixième Sceau</em></a>, mais la possession de ces ouvrages n’est pas
+  nécessaire pour mener cette aventure, car les points essentiels sont intégrés
+  dans ce document. Celle-ci développe l’intrigue <strong>Ceux que l’on
+  n’attendait pas</strong> (<em>Affaires Connexes</em>, p. 10), car cette trame
+  est relativement secondaire et optionnelle, ce qui permet de faire découvrir
+  la proposition de <em>Rouge Delaware</em> sans « spoiler » ses participants ou
+  révéler prématurément d’importants secrets de son
+  cadre.</p><p><strong>Attention :</strong> les thématiques de <em>Rouge
+  Delaware</em> sont adultes et nécessitent ainsi le consentement de la table
+  et/ou l’utilisation d’un outil de sécurité émotionnelle, de type
+  X-Card.</p><p>Nous conseillons de jouer avec un maximum de 4 joueurs, afin que
+  l’expérience à votre table soit optimale. Vous pouvez également tout à fait
+  jouer avec 1 ou 2 joueurs, l’adversité dans ce scénario étant plus un prétexte
+  qu’une véritable opposition à surmonter.</p>
+actors:
+  - folder: LdFJClEp6TtOSE2J
+    name: Kadeem Harrigan
+    type: character
+    _id: xc4sPJYomHEDycZI
+    img: modules/cthack-poisse/assets/characters/pc/kadeem_harrigan.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+        - biography
+        - notes
+        - equipment
+      locked: true
+      saves:
+        str:
+          value: 13
+          advantage: false
+        dex:
+          value: 13
+          advantage: false
+        con:
+          value: 12
+          advantage: false
+        wis:
+          value: 12
+          advantage: false
+        int:
+          value: 9
+          advantage: false
+        cha:
+          value: 9
+          advantage: false
+      attributes:
+        flashlights:
+          value: d4
+          max: d4
+        smokes:
+          value: d4
+          max: d4
+        sanity:
+          value: d8
+          max: d8
+        wealthDice:
+          value: d4
+          max: d6
+        hitDice:
+          value: d10
+          max: d10
+        miscellaneous:
+          value: d6
+          max: d6
+        armedDamage:
+          value: d8
+        unarmedDamage:
+          value: d6
+        adrenaline1:
+          value: pj
+        adrenaline2:
+          value: pj
+      abilities:
+        - id: PYW04ytDl8H2qqS8
+          key: SELPRE
+        - key: SWILEA
+          id: cOow0hiXrMwQtD8J
+      hp:
+        value: 16
+        min: 0
+        max: 16
+      occupation: ''
+      skills: ''
+      archetype: Brute
+      shortDescription: ''
+      biography: >-
+        <p>Age : 28 ans</p><p>Ancien flic en uniforme de Baltimore, qui a été
+        refourgué au service des Liaisons après que les services internes aient
+        mené une enquête, sans succès, sur l’impropriété de sa relation
+        personnelle avec une informatrice (une prostituée, retrouvée morte).
+        Costaud et habitué à la violence des rues, il déteste les gangs, en
+        particulier, les Bloods (qui donnent une mauvaise image aux
+        Afro-Américains) et les Pagans.</p>
+      equipment: ''
+    prototypeToken:
+      name: Kadeem Harrigan
+      displayName: 0
+      actorLink: true
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/pc/pj_kadeem_couleur.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: 1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: true
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 0
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - _id: qDvYz708OrIksLkr
+        name: Sens du danger
+        type: ability
+        flags:
+          core: {}
+        img: systems/cthack/ui/icons/extra-lucid.png
+        effects: []
+        _stats:
+          compendiumSource: Item.XKKv6w1z3wP0b208
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739732135977
+          modifiedTime: 1739732135977
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          Q9eXSbNsJCeaMOSw: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Le personnage b&eacute;n&eacute;ficie d&rsquo;un Avantage lors
+            des Sauvegardes visant &agrave; &eacute;viter les pi&egrave;ges ou
+            les machines pouvant le blesser ou l&rsquo;entraver.</p>
+          key: SELPRE
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - _id: GT6gOv72xI6lUUVn
+        name: Agile
+        type: ability
+        flags: {}
+        img: systems/cthack/ui/icons/acrobatic.png
+        effects: []
+        _stats:
+          compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739732145546
+          modifiedTime: 1739732145546
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          gCtskyVJVCb7NnMV: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Le personnage b&eacute;n&eacute;ficie d'un <strong>Avantage
+            </strong>pour les <strong>Sauvegardes </strong>n&eacute;cessitant
+            des capacti&eacute;s athl&eacute;tiques, comme grimper, sauter ou se
+            balancer.</p>
+          key: SWILEA
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - name: Nouveau Arme
+        type: weapon
+        _id: TMaZqhl0pK9LP5bE
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          dice: ''
+          range: ''
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739732274079
+          modifiedTime: 1739732274079
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+      - folder: z4YdoUBlTMpqwJKY
+        name: Gilet pare-balles
+        type: item
+        _id: AnbQRlbfud8yuSt9
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          dice: ''
+          description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+        effects: []
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: Item.Fqe8BKh5suqGfVF1
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780374365
+          modifiedTime: 1739780374365
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739731992330
+      modifiedTime: 1739733281678
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: LdFJClEp6TtOSE2J
+    name: Vashti Najafi
+    type: character
+    _id: bgqVDHYZMZImVlME
+    img: modules/cthack-poisse/assets/characters/pc/vashti_najafi.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+        - biography
+        - notes
+        - equipment
+      locked: true
+      saves:
+        str:
+          value: 8
+          advantage: false
+        dex:
+          value: 12
+          advantage: false
+        con:
+          value: 7
+          advantage: false
+        wis:
+          value: 15
+          advantage: false
+        int:
+          value: 12
+          advantage: false
+        cha:
+          value: 12
+          advantage: false
+      attributes:
+        flashlights:
+          value: d12
+          max: d12
+        smokes:
+          value: d10
+          max: d10
+        sanity:
+          value: d10
+          max: d10
+        wealthDice:
+          value: d4
+          max: d6
+        hitDice:
+          value: d4
+          max: d4
+        miscellaneous:
+          value: d6
+          max: d6
+        armedDamage:
+          value: '1'
+        unarmedDamage:
+          value: '1'
+        adrenaline1:
+          value: pj
+        adrenaline2:
+          value: pj
+      abilities:
+        - key: ERU
+          id: HU5l7g4aYQNGLZxp
+      hp:
+        value: 10
+        min: 0
+        max: 10
+      occupation: ''
+      skills: ''
+      archetype: Savant
+      shortDescription: ''
+      biography: >-
+        <p>Age : 23 ans</p><p>Iranienne née aux USA de troisième génération,
+        c’est une beauté persane, mais aussi une brillante étudiante. Elle
+        réussit ainsi à intégrer le FBI et envoyé suivre une formation de
+        profiler à Quantico. Là, elle cède à la pression, et prétend souffrir de
+        troubles de comportements pour prendre de l’adderall. Le FBI découvre sa
+        manigance et la refourgue à Guy Moore et au Bureau de Liaisons.</p>
+    prototypeToken:
+      name: Vashti Najafi
+      displayName: 0
+      actorLink: true
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/pc/pj_vashti_couleur.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: 1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: true
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 1
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - _id: 83vn5bu0uJKuRv2X
+        name: Érudit
+        type: ability
+        flags:
+          core: {}
+        img: systems/cthack/ui/icons/inspiration.png
+        effects: []
+        _stats:
+          compendiumSource: Item.uLeoN6S4r5DWyxoR
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739733038803
+          modifiedTime: 1739733038803
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          Q9eXSbNsJCeaMOSw: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Une fois par heure de jeu, vous r&eacute;ussissez automatiquement
+            une <strong>Sauvegarde</strong> <strong>d&rsquo;Intelligence
+            </strong>ou de <strong>Sagesse</strong>.</p>
+          key: ERU
+          uses:
+            value: 1
+            max: 1
+            per: Hour
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - name: Polyvalent
+        type: ability
+        _id: GtwSzpmRtIg72jYv
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          key: nouveau-capacite
+          uses:
+            value: 1
+            max: 1
+            per: Session
+            last: ''
+          multiple: false
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+          description: >-
+            <p>Une fois par session vous pouvez relancer un test de
+            <strong>Sauvegarde</strong> que vous avez échoué.</p>
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780086845
+          modifiedTime: 1739780256233
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+      - folder: z4YdoUBlTMpqwJKY
+        name: Gilet pare-balles
+        type: item
+        _id: PcRH9cI20zQhD3b2
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          dice: ''
+          description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+        effects: []
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: Item.Fqe8BKh5suqGfVF1
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780399320
+          modifiedTime: 1739780399320
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739732877255
+      modifiedTime: 1739733317812
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: LdFJClEp6TtOSE2J
+    name: David McCarthy
+    type: character
+    _id: ukZPQNhOxXpTgmhr
+    img: modules/cthack-poisse/assets/characters/pc/david_mccarthy.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+        - biography
+        - notes
+        - equipment
+      locked: true
+      saves:
+        str:
+          value: 9
+          advantage: false
+        dex:
+          value: 12
+          advantage: false
+        con:
+          value: 8
+          advantage: false
+        wis:
+          value: 13
+          advantage: false
+        int:
+          value: 11
+          advantage: false
+        cha:
+          value: 13
+          advantage: false
+      attributes:
+        flashlights:
+          value: d8
+          max: d8
+        smokes:
+          value: d6
+          max: d6
+        sanity:
+          value: d8
+          max: d8
+        wealthDice:
+          value: d8
+          max: d6
+        hitDice:
+          value: d8
+          max: d8
+        miscellaneous:
+          value: d6
+          max: d6
+        armedDamage:
+          value: d6
+        unarmedDamage:
+          value: d4
+        adrenaline1:
+          value: pj
+        adrenaline2:
+          value: pj
+      abilities:
+        - key: IND
+          id: zMFVA2MSGJEH64A7
+      hp:
+        value: 14
+        min: 0
+        max: 14
+      occupation: ''
+      skills: ''
+      archetype: Aventurier
+      shortDescription: ''
+      biography: >-
+        <p>Age : 54 ans</p><p>Inspecteur aux moeurs (Vice) à Cleveland, suite à
+        une arrestation qui a fini en bavure, laissant un jeune Afro-Américain
+        sur le carreau. Les services internes l’ont innocenté, mais l’esclandre
+        a forcé sa hiérarchie à le muter au bureau des Liaisons. Stressé et
+        fatigué, David se remet encore d’un ulcère récent (et mal soigné).</p>
+    prototypeToken:
+      name: David McCarthy
+      displayName: 0
+      actorLink: true
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/pc/pj_david_couleur.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: 1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: true
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 0
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - _id: lkRrZOzmEnF9OdbR
+        name: Indomptable
+        type: ability
+        flags:
+          core: {}
+        img: systems/cthack/ui/icons/lion.png
+        effects: []
+        _stats:
+          compendiumSource: Item.3SfNP7zMMWMUgboC
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739733418152
+          modifiedTime: 1739733418152
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          Q9eXSbNsJCeaMOSw: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Vous b&eacute;n&eacute;ficiez d&rsquo;un
+            <strong>Avantage</strong> pour les <strong>Sauvegardes</strong>
+            contre la tromperie,le contr&ocirc;le mental ou lorsque votre
+            investigateur tente de tromper son interlocuteur.</p>
+          key: IND
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - name: Dites-moi tout
+        type: ability
+        _id: kqzqHUg5tOT9xphv
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          key: nouveau-capacite
+          uses:
+            value: 1
+            max: 1
+            per: Permanent
+            last: ''
+          multiple: false
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+          description: >-
+            <p>Le personnage bénéficie d’un <strong>Avantage</strong> aux tests
+            visant à obtenir des aveux ou des confidences.</p>
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780165742
+          modifiedTime: 1739780222863
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+      - folder: z4YdoUBlTMpqwJKY
+        name: Gilet pare-balles
+        type: item
+        _id: gGiYZdmps6Fiu3Zd
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          dice: ''
+          description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+        effects: []
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: Item.Fqe8BKh5suqGfVF1
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780356315
+          modifiedTime: 1739780356315
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739733333703
+      modifiedTime: 1739733555019
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: LdFJClEp6TtOSE2J
+    name: Lucia Rodriguez
+    type: character
+    _id: 0dOPomcDtMT1YuEO
+    img: modules/cthack-poisse/assets/characters/pc/lucia_rodriguez.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+        - biography
+        - notes
+        - equipment
+      locked: true
+      saves:
+        str:
+          value: 10
+          advantage: false
+        dex:
+          value: 14
+          advantage: false
+        con:
+          value: 10
+          advantage: false
+        wis:
+          value: 9
+          advantage: false
+        int:
+          value: 10
+          advantage: false
+        cha:
+          value: 13
+          advantage: false
+      attributes:
+        flashlights:
+          value: d10
+          max: d10
+        smokes:
+          value: d8
+          max: d8
+        sanity:
+          value: d8
+          max: d8
+        wealthDice:
+          value: d6
+          max: d6
+        hitDice:
+          value: d6
+          max: d6
+        miscellaneous:
+          value: d6
+          max: d6
+        armedDamage:
+          value: d4
+        unarmedDamage:
+          value: d4
+        adrenaline1:
+          value: pj
+        adrenaline2:
+          value: pj
+      abilities:
+        - id: PYW04ytDl8H2qqS8
+          key: SELPRE
+        - key: SWILEA
+          id: cOow0hiXrMwQtD8J
+      hp:
+        value: 12
+        min: 0
+        max: 12
+      occupation: ''
+      skills: ''
+      archetype: Voyou
+      shortDescription: ''
+      biography: >-
+        <p>Age : 28 ans</p><p>Fille de réfugiés cubains, elle a grandi sur les
+        plages d’Orlando et les petites frappes de la ville. Malgré ces
+        accointances, la jeune surfeuse devient garde-côtes. Malheureusement,
+        son dossier est entaché par une accusation, fondée, de corruption au
+        sein de son équipe. Elle est innocente et, pour sauver sa carrière, on
+        la transfère au service des Liaisons, avec la fonction honorifique de
+        faire le lien avec la Police Marine Unit de la ville. Dépitée, la jeune
+        femme déteste la glaciale Philadelphie, et sa famille et ses proches lui
+        manquent…</p>
+    prototypeToken:
+      name: Lucia Rodriguez
+      displayName: 0
+      actorLink: true
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/pc/pj_lucia_couleur.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: 1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: true
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 1
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - _id: 7jSq09vPR9lgholM
+        name: Sens du danger
+        type: ability
+        flags:
+          core: {}
+        img: systems/cthack/ui/icons/extra-lucid.png
+        effects: []
+        _stats:
+          compendiumSource: Item.XKKv6w1z3wP0b208
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739733696228
+          modifiedTime: 1739733696228
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          Q9eXSbNsJCeaMOSw: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Le personnage b&eacute;n&eacute;ficie d&rsquo;un Avantage lors
+            des Sauvegardes visant &agrave; &eacute;viter les pi&egrave;ges ou
+            les machines pouvant le blesser ou l&rsquo;entraver.</p>
+          key: SELPRE
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - _id: fWky2byMHgwFOhxv
+        name: Agile
+        type: ability
+        flags: {}
+        img: systems/cthack/ui/icons/acrobatic.png
+        effects: []
+        _stats:
+          compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739733701484
+          modifiedTime: 1739733701484
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        ownership:
+          default: 0
+          gCtskyVJVCb7NnMV: 3
+          LYduACDti2s7nrlE: 3
+        system:
+          htmlFields:
+            - description
+          description: >-
+            <p>Le personnage b&eacute;n&eacute;ficie d'un <strong>Avantage
+            </strong>pour les <strong>Sauvegardes </strong>n&eacute;cessitant
+            des capacti&eacute;s athl&eacute;tiques, comme grimper, sauter ou se
+            balancer.</p>
+          key: SWILEA
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          multiple: false
+          locked: true
+          isCustom: false
+          advantageGiven: false
+          advantageText: ''
+        folder: null
+        sort: 0
+      - folder: z4YdoUBlTMpqwJKY
+        name: Gilet pare-balles
+        type: item
+        _id: zYM3oyHTQ1mHZkqP
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          dice: ''
+          description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+        effects: []
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: Item.Fqe8BKh5suqGfVF1
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780387764
+          modifiedTime: 1739780387764
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739733569892
+      modifiedTime: 1739733701469
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: umycQsilwONOvrCB
+    name: Blood
+    type: opponent
+    _id: 1BSRXJzxYM0SvlXP
+    img: modules/cthack-poisse/assets/characters/npc/bloods.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+      locked: true
+      hitDice: 1
+      armor: 1
+      malus: -1
+      hp:
+        value: 4
+        min: 0
+        max: 4
+      shortDescription: ''
+      description: >-
+        <p>La mafia chinoise de la famille Fu (cf. <em>Rouge Delaware</em>, p.
+        23) fournit les Bloods et Jimmy, un jeune black de Camden. Sans être
+        réellement un membre du gang, Jimmy écoule une petite partie du stock
+        des trois dealers du squat, qui s’en prennent aux Liaisons à leur
+        arrivée.</p>
+    prototypeToken:
+      name: Blood
+      displayName: 0
+      actorLink: false
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/npc/pnj_bloods.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: -1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: false
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 0
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - name: Pistolet automatique
+        type: attack
+        _id: MxSB7j7uYx8Xduns
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          nb: 1
+          damage: 4
+          damageDice: '0'
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739721039268
+          modifiedTime: 1739721055235
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739720981896
+      modifiedTime: 1739721443054
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: umycQsilwONOvrCB
+    name: Profond
+    type: opponent
+    _id: Z0FEJm3iY5s9Ko6p
+    img: modules/cthack-poisse/assets/characters/npc/profond.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+      locked: true
+      hitDice: 4
+      armor: 6
+      malus: -3
+      hp:
+        value: 14
+        min: 0
+        max: 14
+      shortDescription: ''
+    prototypeToken:
+      name: Profond
+      displayName: 0
+      actorLink: false
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/npc/pnj_profond.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: -1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: false
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 0
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items:
+      - name: Griffes
+        type: attack
+        _id: TltWFlQzGmYJm6Hl
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          nb: 1
+          damage: 5
+          damageDice: '0'
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739728081735
+          modifiedTime: 1739728087289
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+      - name: Amphibie
+        type: opponentAbility
+        _id: 1czE5UqDvmjgkFeH
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          description: <p>Combat avec Avantage sous l’eau.</p>
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739728095568
+          modifiedTime: 1739728125222
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+      - name: Modelage
+        type: opponentAbility
+        _id: PesC9InzsdYVIV8R
+        img: icons/svg/item-bag.svg
+        system:
+          htmlFields:
+            - description
+          locked: true
+          uses:
+            value: 0
+            max: 0
+            per: Permanent
+            last: ''
+          description: <p>Peut liquéfier le métal avec ses mains.</p>
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739728133927
+          modifiedTime: 1739728165742
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739728051760
+      modifiedTime: 1739728195683
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: umycQsilwONOvrCB
+    name: Nancy
+    type: opponent
+    _id: f8gh2MM2JmccPZQx
+    img: modules/cthack-poisse/assets/characters/npc/nancy.webp
+    system:
+      htmlFields:
+        - description
+        - shortDescription
+      locked: true
+      hitDice: 1
+      armor: 0
+      malus: 0
+      hp:
+        value: 4
+        min: 0
+        max: 4
+      shortDescription: ''
+    prototypeToken:
+      name: Nancy
+      displayName: 0
+      actorLink: true
+      appendNumber: false
+      prependAdjective: false
+      width: 1
+      height: 1
+      texture:
+        src: modules/cthack-poisse/assets/tokens/npc/pnj_nancy.webp
+        anchorX: 0.5
+        anchorY: 0.5
+        offsetX: 0
+        offsetY: 0
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        rotation: 0
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: -1
+      displayBars: 0
+      bar1:
+        attribute: hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: false
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: []
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 0
+        subject:
+          scale: 1
+          texture: null
+      flags: {}
+      randomImg: false
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+    items: []
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags:
+      cthack:
+        SheetUnlocked: SheetUnlocked
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739733832193
+      modifiedTime: 1739733869574
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+combats: []
+items:
+  - folder: z4YdoUBlTMpqwJKY
+    name: Gilet pare-balles
+    type: item
+    _id: Fqe8BKh5suqGfVF1
+    img: icons/svg/item-bag.svg
+    system:
+      htmlFields:
+        - description
+      locked: true
+      dice: ''
+      description: <p>Le gilet pare-balles procure 2 Points d'Armure.</p>
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739732244951
+      modifiedTime: 1739780341697
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+journal:
+  - folder: AWFdNTfthBXGc1U7
+    name: PNJ
+    _id: 3enI4cmROCh6rywR
+    pages:
+      - sort: 100000
+        name: Nancy
+        type: image
+        _id: qacRFTSQsx6hW6HT
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/npc/nancy.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739719015610
+          modifiedTime: 1739719028113
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 200000
+        name: Les Bloods
+        type: image
+        _id: pfmil1gYxPQTbpH9
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/npc/bloods.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739720927432
+          modifiedTime: 1739720932186
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 300000
+        name: Les Profonds
+        type: image
+        _id: KnICIFl8sLGRjoBl
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/npc/profond.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739731813188
+          modifiedTime: 1739731825843
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+    sort: 350000
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739719004255
+      modifiedTime: 1739733924725
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+    categories: []
+  - folder: AWFdNTfthBXGc1U7
+    name: Perdus dans la poisse
+    _id: dUcYjaxFcmnaS0cO
+    pages:
+      - sort: 100000
+        name: Crédits
+        type: text
+        _id: eUTka6gNCyU6iiHt
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+              <div class="credits-titre"><br />Textes</div>
+              <div class="credits-texte">Romain « Belaran » Pelisse</div>
+              <div class="credits-titre"><br />Direction artistique</div>
+              <div class="credits-texte">Maxime Plasse</div>
+              <div class="credits-titre"><br />Univers</div>
+              <div class="credits-texte">Benoit Attinost</div>
+              <div class="credits-titre"><br />Plan</div>
+              <div class="credits-texte">Alban Schuiten</div>
+              <p></p>
+              <div class="credits-copyright">
+                Perdus dans la Poisse est un supplément gratuit pour Rouge Delaware, édité par Les XII Singes © 2006-
+                2025. Les marques et logos Rouge Delaware, Le Sixième Sceau, Affaires connexes, Dark Monkeys, Cthulhu
+                Hack VF, Les XII Singes sont la propriété de ReSpell SARL ©. Crédits photos : FreePik. Les marques Cthulhu
+                Hack et Just Crunch Games sont la propriété de Just Crunch Games ©.
+                <br />
+                <br />Référence : DMKN16. ISBN : 978-2-37441-712-7<br /><br /><a href="https://www.les12singes.com">www.les12singes.com</a>
+              </div>
+
+              <p></p>
+              <div class="note">
+                <p>
+                  Ce court scénario d’introduction, conçu pour être joué en 3 à 4 heures, a pour objectif de présenter
+                  les bases de l’univers de <em><a href="https://www.les12singes.com/rouge-delaware/246-rouge-delaware.html">Rouge Delaware</a></em> : un monde d’enquête policière noire, sale, et horrifique. Il
+                  utilise des éléments d’intrigue tirés des suppléments <em><a href="https://www.les12singes.com/rouge-delaware/384-affaires-connexes.html">Affaires Connexes</a></em> et <em><a href="https://www.les12singes.com/rouge-delaware/383-sixieme-sceau.html">Le Sixième Sceau</a></em>, mais la
+                  possession de ces ouvrages n’est pas nécessaire pour mener cette aventure, car les points essentiels
+                  sont intégrés dans ce document. Celle-ci développe l’intrigue <strong>Ceux que l’on n’attendait pas</strong> (<em>Affaires
+                  Connexes</em>, p. 10), car cette trame est relativement secondaire et optionnelle, ce qui permet de faire
+                  découvrir la proposition de <em>Rouge Delaware</em> sans « spoiler » ses participants ou révéler prématurément
+                  d’importants secrets de son cadre.
+                </p>
+                <p>
+                  <strong>Attention :</strong> les thématiques de <em>Rouge Delaware</em> sont adultes et nécessitent ainsi le consentement de
+                  la table et/ou l’utilisation d’un outil de sécurité émotionnelle, de type X-Card.
+                </p>
+                <p>Nous conseillons de jouer avec un maximum de
+                  4 joueurs, afin que l’expérience à votre table soit optimale. Vous pouvez également tout à fait jouer avec 1 ou 2
+                  joueurs, l’adversité dans ce scénario étant plus un prétexte qu’une véritable opposition à surmonter.</p>
+              </div>
+              <img class="image-small" src="modules\cthack-poisse\assets\artwork\affaires_couteau.webp" />
+              <p></p>
+              <h2>Félicitations !</h2>
+              <p>Vous venez de faire l'acquisition du module <em>Rouge Delaware - Perdus dans la poisse</em> utilisable avec le système Cthulhu Hack sur Foundry VTT !</p>
+              <p>
+                Ce module contient l'adaptation Foundry VTT de l'aventure <em>Rouge Delaware - Perdus dans la poisse</em>. Il a été conçu pour vous octroyer une
+                expérience de jeu en VTT la plus agréable possible.
+              </p>
+
+              <p>
+                Dans le menu « Scènes », un répertoire « Perdus dans la poisse » composé de scènes d’ambiance et des plans que vous
+                pouvez partager avec votre groupe de joueuses et joueurs.
+              </p>
+              <p>
+                Dans le menu « Acteurs », le répertoire « Perdus dans la poisse » comprend un sous-répertoire « PJ » contenant l'ensemble des prétirés jouables et un sous-répertoire « PNJ » contenant les personnages non joueurs avec leurs caractéristiques utilisables
+                en parties.
+              </p>
+
+              <p>
+                Dans le menu « Journaux », un répertoire « Perdus dans la poisse » comprend :<br />
+                • les entrées de journal de l'aventure,<br />
+                • les illustrations des différentes scènes et cartes,<br />
+                • les illustrations des différents PNJ,<br />
+                • les illustrations des différentes PJ.
+              </p>
+
+              <p>À noter que tous les tokens des PNJ sont disponibles dans le module sous l'arborescence "assets\tokens".</p>
+
+              <p>Pour améliorer votre expérience de jeu, vous pouvez installer les modules suivants, sous réserve qu'ils soient compatibles avec la version 13 de Foundry :</p>
+              <ul>
+                <li>Bénéficier de tout le contenu de Foundry VTT en français « Traduction française du core » : https://foundryvtt.com/packages/fr-core</li>
+                <li>Bénéficier des lancers de dés en 3D incluant les dés spécifiques Cthulhu Hack avec « Dice So Nice! » : https://foundryvtt.com/packages/dice-so-nice/</li>
+                <li>
+                  Accéder facilement aux différentes actions possibles depuis les tokens des joueuses et joueurs avec « Token Action HUD » : https://foundryvtt.com/packages/token-action-hud/
+                </li>
+                <li>Connaître les documents et aides de jeu partagés à vos joueuses et joueurs avec « Permission Viewer » : https://foundryvtt.com/packages/permission_viewer</li>
+                <li>Permettre d'avoir le contenu fenêtres de Foundry dans des fenêtres séparées du navigateur avec « Popout! » : https://foundryvtt.com/packages/popout</li>
+                <li>Ajouter des effets météorologiques sur vos scènes et les dynamiser un peu plus avec « FXMaster » : https://foundryvtt.com/packages/fxmaster</li>
+                <li>
+                  Permettre d'afficher et partager les scènes à vos joueuses et joueurs avec « Open scene from Journal
+                  » : https://foundryvtt.com/packages/ghorin-journal-scenes 
+                </li>
+              </ul>
+              <p>
+                L'équipe de développement Foundry VTT qui a adapté l'aventure s'est employée à vous fournir le meilleur contenu possible. Cependant si vous étiez amenés à constater des
+                erreurs, n'hésitez pas à les remonter sur les discord suivants :
+              </p>
+              <ul>
+                <li><a href="https://discord.gg/rXSJTuY">Discord de l'éditeur Les XII Singes</a> où Carter et Kristov sont présents sur le canal foundry</li>
+                <li><a href="https://discord.gg/pPSDNJk">Discord de la Fonderie</a>, serveur francophone dédié à Foundry VTT où Carter et Kristov sont présents sur le canal Cthulhu Hack.</li>
+              </ul>
+              <p>Nous vous souhaitons d’agréables sessions de jeu sur Foundry VTT et d'excellentes aventures dans les rues de Philly et Camden !</p>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739712161789
+          modifiedTime: 1739953514463
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 200000
+        name: Démarrage sur les chapeaux de roue
+        type: text
+        _id: hWajR5mLLUZTCmTC
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+            <p>Ce scénario d’initiation pour Rouge Delaware démarre
+              in medias res. Les PJs, désignés sous le terme
+              de Liaison, accompagnent deux officiers du SWAT
+              qui pénètrent dans un repaire de drogués. La situation
+              tourne immédiatement mal, donne l’occasion
+              d’un bref, mais violent échange de coups de feu, qui
+              pose ainsi le ton du jeu.</p>
+              <p>Une fois les personnages distribués (vous trouverez quatre fiches de personnages prétirés),
+                vous pouvez donc démarrer la partie en lisant
+                le texte suivant :</p>
+              <p><em>« Vos personnages sont des agents du Bureau des
+                Liaisons, un service de police responsable des affaires
+                criminelles qui échappent à la seule juridiction
+                de Philadelphie ou sa ville soeur, Camden. Arme
+                à la main, ils se tiennent derrière deux officiers, eux
+                en armure intégrale, du SWAT, à la porte d’une maison
+                délabrée de Camden. Ils sont sur le point de vous
+                ouvrir le chemin dans ce sordide repaire de junkies,
+                vraisemblablement aussi occupé par plusieurs
+                membres du gang des Bloods. Pourquoi ne sont-ils
+                que deux et pourquoi les accompagnez-vous ? Car la
+                mission qui vous a été confiée par la mairie de Philadelphie,
+                est de vous assurer que rien n’arrive à une
+                jeune fille du nom de <strong>Nancy</strong>, la nièce de l’influent
+                politicien <strong>Jarvis T. Berlin*</strong>, retenue ici contre son gré.
+                Votre supérieur, le <strong>Capitaine Swift</strong> a donc négocié
+                avec le chef du SWAT, le solide <strong>Sergent Ambroise
+                Reid*</strong>, de vous laisser mener l’assaut, avec la seule
+                assistance de ces deux policiers, afin de minimiser
+                les risques pour Nancy. Le sergent et le reste de ses
+                hommes se tiennent à une douzaine de mètres derrière
+                vous, prêts à intervenir, mais seulement sur
+                votre ordre.</em></p>
+                <p></p>
+                <p class="red">* Jarvis T. Berlin et le Sergent Ambroise Reid sont
+                  décrits issus du supplément Le Sixième Sceau, respectivement
+                  pages 8 et 45. Il n’est cependant pas
+                  nécessaire de posséder ce livre pour profiter du scénario
+                  de découverte</p>
+                  <img src="modules\cthack-poisse\assets\artwork\ambiance\planque.webp" />
+                  <p class="centre">@UUID[Scene.2lDpregKOYCNKMH9]{Planque}<br />@UUID[JournalEntry.zbTpsqELJgyypsoV.JournalEntryPage.RCQRMeacR9mDJpIj]{Planque}</p>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739716253738
+          modifiedTime: 1739953514491
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 300000
+        name: L’histoire en quelques mots
+        type: text
+        _id: mS7evlSrqTT5IEAI
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+             
+
+              <blockquote class="insert-pnj-droite">   <div class="note"><h4>@UUID[Actor.f8gh2MM2JmccPZQx]{Nancy}</h4><img class="pnj-portrait" src="modules\cthack-poisse\assets\characters\npc\nancy.webp" /></div></blockquote>
+              <p>Sans surprise, cette histoire est plus compliquée
+                qu’il n’y parait. Jimmy n’a pas enlevé son ex, Nancy,
+                pour ses beaux yeux. Il a été payé grassement par
+                de mystérieux Asiatiques, qui voulaient à tout
+                prix retrouver la demoiselle. En fait, ce sont des
+                employés dans la <strong>Delaware Trash Mng</strong>, une société
+                gérant une déchetterie sur le bord du Delaware,
+                qui est utilisée comme couverture à une récente
+                implantation en ville d’une colonie de Profonds (cf.
+                <em>Affaires Connexes</em>, p. 10). Conscients que la jeune
+                fille a été fertilisée par l’une de ces créatures, ils
+                désirent récupérer sa progéniture.</p>
+                <p>Grâce à <strong>Mary Snegireva</strong>, une employée du Traffic
+                  Control, chargée de surveiller les routes (cf. <em>Rouge
+                  Delaware</em>, p. 11), la police de Phila a pu suivre la
+                  voiture de Jimmy quitter le Sobriety Now, le centre
+                  de réhabilitation de Nancy, situé au coeur de Phila,
+                  pour rejoindre un taudis du nord de Camden, qui
+                  sert de repaire à une demi-douzaine de camés et
+                  quelques Bloods (cf. Rouge Delaware p. 31). Ce qu’ils
+                  n’ont pas vu, faute de caméra dans les parages, c’est
+                  le trio d’Asiatiques qui se sont faufilés à l’intérieur
+                  peu avant leur arrivée. Armés d’un pistolet doté d’un
+                  silencieux, ils ont abattu Jimmy et sont repartis de
+                  l’endroit par la porte arrière, en tenant discrètement
+                  Nancy en joue, peu avant que les Liaisons et le SWAT
+                  ne débarquent.</p>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739718070649
+          modifiedTime: 1739733912850
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 400000
+        name: L’intervention
+        type: text
+        _id: LF3ONlVQHbOpWsrC
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <div class="delaware-mod">
+             
+            <p>L’aventure commence <em>in medias res</em>, avec les
+              Liaisons (les PJ) accompagnant l’unité du SWAT qui
+              pénètre dans la demeure. Leur mission, confiée il y a
+              quelques instants par le <em>Capitaine Swift</em> (cf. <em>Rouge
+              Delaware</em>, p. 9) est aussi simple que pratiquement
+              hors de leur contrôle : s’assurer que la nièce de
+              Berlin, Nancy, survive, indemne à l’assaut. La mairie
+              de Philadelphie (et de Camden) a été claire : si
+              l’opération tourne mal, la faute incombera à eux et
+              au service des Liaisons.</p>
+              
+              <p>Après seulement quelques pas dans le taudis, où
+                des héroïnomanes gisent et gémissent par terre,
+                incapable d’appréhender ce qui passe, le SWAT
+                et les Liaisons tombent dans un traquenard: une
+                grenade explose, assommant net les deux hommes
+                en lourdes combinaisons protectrices qui ouvrent
+                la marche. Les Liaisons se retrouvent seules face à
+                trois Bloods, complètement défoncés à la coke et
+                armés de pistolets automatiques, prêts à faire un
+                inutile baroud d’honneur. Les personnages doivent
+                faire face à la Menace !</p>
+              <p class="red"><strong>Note :</strong> <em>les PJ ont des gilets pare-balles, qui offrent
+                2 Points d’Armure.</em></p>
+
+            <div class="note"><h4>Les @UUID[Actor.1BSRXJzxYM0SvlXP]{Bloods}
+            (Menace)</h4><img class="centre"
+            src="modules\cthack-poisse\assets\characters\npc\bloods.webp" /> 
+            <p><strong>Dés de Vie :</strong> 1</p>
+                  <p><strong>Points de Vie :</strong> 4</p>
+                    <p><strong>Points d’Armure :</strong> 1</p>
+                  <p><strong>Malus au toucher :</strong> -1</p>
+                <p><strong>Attaques :</strong> Pistolet automatique (4 dégâts)</p>
+              <p>La mafia chinoise de la famille Fu (cf. <em>Rouge
+                Delaware</em>, p. 23) fournit les Bloods et Jimmy, un
+                jeune black de Camden. Sans être réellement un
+                membre du gang, Jimmy écoule une petite partie
+                du stock des trois dealers du squat, qui s’en
+                prennent aux Liaisons à leur arrivée.</p></div>
+
+              <p>Dès la fin du premier moment, par radio, Ambroise
+                va demander l’autorisation d’intervenir aux Liaisons.
+                À moins que ceux-ci ne refusent fermement,
+                le reste du détachement du SWAT débarque au début
+                du troisième Moment et abat, sans difficulté, les
+                dealers encore en lice.</p>
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739719293890
+          modifiedTime: 1739723198194
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 500000
+        name: La scène du crime
+        type: text
+        _id: c44Ipg9ovJKUacf8
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+             
+            <p>Une fois la Menace neutralisée, les Liaisons
+              peuvent fouiller les lieux, avec des tests de Torche.
+              Au rez-de-chaussée, parmi les héroïnomanes qui
+              gisent au sol, une adolescente de seize ans est morte
+              d’une overdose. À part cela, aucune trace de Jimmy
+              ou de Nancy. La situation est la même à l’étage.</p>
+
+            <p>La porte menant à la cave est située sous l’escalier
+              en bois. C’est là qu’ils trouvent le cadavre de Jimmy,
+              abattu, à bout pourtant, de deux balles dans le
+              torse. Elles ont percé, de part en part, ses poumons,
+              sans toucher son coeur. Son visage est comme figé
+              dans une expression de surprise. Son corps gît dans
+              une terre devenue boueuse en absorbant son sang.</p>
+
+              <h2>Le Corps de Jimmy</h2>
+              <p>Il a peu d’indices sur lui :</p>
+              <ul>
+                <li><strong>un téléphone portable</strong> (un « burner », sans abonnement,
+                  prévu pour être utilisé peu de temps afin
+                  d’éviter d’être tracé par la police) avec quelques
+                  échanges SMS avec Nancy. Ceux-ci suggèrent qu’il
+                  a repris contact avec elle il y a quelques jours seulement.
+                  Il joue l’amant éploré (« tu me manques »,
+                  « je t’aime… »), mais en cherchant clairement à la
+                  convaincre de s’enfuir avec lui, et lui demandant
+                  où elle se trouve. Au détour d’une phrase, dans
+                  l’un des derniers messages, elle mentionne le nom
+                  de son centre de réhabilitation : <em>Sobriety Now</em>.</li>
+                  <li><strong>un Browning</strong>, cal. 45 au numéro de série limité.
+                    Au poste, des recherches complémentaires
+                    permettent de découvrir que l’arme a été
+                    La scène du crime
+                    utilisée dans plusieurs autres crimes en lien
+                    avec les Bloods.</li>
+              </ul>
+              <p class="red"><strong>Note pour le MJ :</strong> <em>c’est le gang qui lui a fourni le
+                flingue, quelques semaines avant le début du
+                scénario.</em></p>
+
+            <h2>Enquête de proximité</h2>
+            <p>Interroger les camés est laborieux et prend du
+              temps (les tests de Bagou se font avec Désavantage).
+              Deux d’entre eux se souviennent d’avoir aperçu trois
+              « chinetoques » entrer par l’arrière du bâtiment
+              et se rendre dans la cave, peu avant l’arrivée des
+              Bloods, de Jimmy et de la « fille » (Nancy). Si les
+              Liaisons insistent un peu, l’un d’eux se rappelle que
+              « la blonde avait une sale gueule, les yeux hagards,
+              presque globuleux, la bouche à moitié ouverte…
+              » (sa grossesse impie affecte sa physionomie, la
+              transformant presque, et temporairement, en
+              hybride humain-profond). Aucun d’entre eux n’a
+              entendu de coups de feu (silencieux), mais, avant
+              de sombrer dans leurs rêves chimériques, ils ont vu
+              cependant les trois « bridés » sortir par la porte de
+              derrière.</p>
+
+              <h2>Le jardin</h2>
+              <p>Explorer le carré de verdure à l’abandon, situé
+                derrière la demeure, permet (test de Torche) de
+                repérer la piste des ravisseurs. Ils ont profité d’une
+                planche manquante à la petite palissade en bois
+                pour s’infiltrer par le jardin d’une autre maison,
+                elle aussi sans occupant (mais, elle, proprement
+                barrée pour empêcher qu’on la squatte). De là, on
+                peut rejoindre une ruelle, au bout de laquelle se
+                trouve un plus grand axe (peu fréquenté) où les
+                cultistes avaient garé leur vieux van. Remonter
+                cette piste, hors des parterres boueux, tient plus
+                de l’intuition du flic et d’un certain bon sens. Dans
+                tous les cas, une fois que l’on a atteint l’avenue - malheureusement dépourvue de caméra - où était
+                stationné le van, une rapide enquête de proximité
+                (test de Bagou) auprès des quelques résidents,
+                assez craintifs, permet d’obtenir une description du
+                véhicule (un ancien modèle, dont la peinture écaillée
+                a pratiquement disparu, faisant du gris de son métal
+                usé la couleur dominante) ainsi que la confirmation
+                que « trois individus suspects et une jeune fille » ont
+                grimpé à bord, peu avant l’assaut du SWAT.</p>
+
+                <h2>Retour au bureau</h2>
+                <p>Un travail de longue haleine d’analyse des
+                  enregistrements vidéos, qui prendra plusieurs
+                  heures et qui peut-être délégué à un subalterne des
+                  Liaisons (comme <strong>Olivia Wilson</strong> ou <strong>Paola Cruz</strong>, cf.
+                  <em>Rouge Delaware</em> pp. 6-10) permet de retrouver le van
+                  sur d’autres caméras, avant d’arriver à déterminer
+                  sa destination, la déchetterie de Trash Delaware
+                  Mng. Ceci vous permettra de déclencher la fin du
+                  scénario lorsque vous le souhaitez, et surtout si
+                  l’enquête piétine.</p>
+                  <p>Que les Liaisons aient découvert cette information
+                    ou qu’ils soient ressortis de la maison bredouille,
+                    il faut maintenant continuer l’investigation
+                    « ailleurs », ce que Swift leur conseillera, au
+                    besoin. Clairement, l’affaire est plus compliquée
+                    qu’il n’y parait. Si les Liaisons ne savent pas
+                    comment procéder, leur supérieur et collègue leur
+                    conseilleront de suivre une logique policière bien
+                    établie : s’intéresser aux dernières 24h de leur
+                    victime, Nancy - ce qui veut dire visiter son centre
+                    de réhabilitation et sa demeure.</p>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739723350822
+          modifiedTime: 1739727925384
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 600000
+        name: Sobriety now
+        type: text
+        _id: VgpBA9x0EIg8knMz
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+             
+            <p>Les Liaisons peuvent se renseigner auprès du
+              centre de réhabilitation <em>Sobriety Now</em>, pour chercher
+              à comprendre comment Nancy a pu s’en échapper.</p>
+
+            <p>La famille Berlin est influente, et le personnel
+              du centre de réhabilitation en est conscient. La réceptionniste, <strong>Linda Sullivan</strong>, une petite blonde
+              ronde, elle-même une ancienne alcoolique, est
+              nerveuse, et ne cesse de chercher ses mots et se
+              reprendre. Elle n’a pas eu beaucoup d’interactions
+              avec Nancy, mais, interrogée habillement, elle peut
+              révéler qu’elle trouvait <em>« son état de santé inquiétant, je pense qu’elle consommait encore de l’héroïne…
+              Elle devait truquer ses tests d’urines »</em>.</p>
+
+
+              <p>L’infirmière qui effectue ces examens, une brune
+                au visage sévère du nom de <strong>Sophie Glendale</strong>, par
+                contre, est catégorique, la jeune fille était « clean ».
+                Cependant, elle ne dit ouvertement pas tout (sous
+                le prétexte de la confidentialité). Par coercition ou
+                à l’aide d’un test de Bagou, elle admet que l’état
+                de santé de Nancy se dégradait, de manière inexplicable,
+                et qu’elle prenait du poids. <em>« Enceinte ?
+                Peut-être, ça éluciderait certains signes, comme la
+                fatigue, la prise de poids et son éventuelle dépression…
+                Mais, pas les autres symptômes »</em>, reconnaît-
+                elle. Sophie Glendale se lave les mains de l’état
+                de Nancy. Elle considère qu’elle a fait son travail
+                (pas de drogue dans son système). Inconsciemment,
+                en bonne « Christian reborn », elle méprise les drogués
+                et pense, sans le dire à haute voix, qu’ils méritent
+                leur sort.</p>
+
+              <p>Le gestionnaire, <strong>Marc Smith</strong>, un affable trentenaire,
+                prétend vouloir tout faire pour aider l’enquête,
+                mais bloque toute requête au nom du secret
+                médical et de la confidentialité de ses patients. En
+                fait, il n’a qu’une frousse : qu’un mandat d’arrêt le
+                force à sortir les comptes de l’organisation, dont il
+                a détourné une partie des fonds pour éponger ses
+                dettes à l’un des casinos de East Vegas (cf. <em>Rouge
+                Delaware</em> p. 11).</p>
+
+                <p>Pour traiter les addictions, les groupes de soutiens,
+                  où une douzaine de victimes partagent leurs difficultés
+                  et trouvent ainsi une forme de réconfort et
+                  d’encouragement, sont un standard aux États-Unis
+                  et l’approche de <em>Sobriety Now</em> n’y déroge pas. Celui
+                  de Nancy, mené par une énergique Afro-Américaine
+                  du nom de <strong>Makena Harris</strong>, confirme que son comportement
+                  dans les derniers temps a changé. Elle a
+                  commencé sa réha avec une <em>« réelle volonté de devenir
+                  sobre, clairement hantée par une peur viscérale
+                  pour sa vie »</em> (le trauma de son viol par un Profond).
+                  <em>« Mais, depuis quelques semaines, elle semblait
+                  presque apathique et son état physique se dégradait
+                  beaucoup »</em>. Makena le dit à mi-mot, mais elle pense
+                  que l’infirmière faisait mal son travail et que Nancy
+                  consommait encore de la drogue.</p>
+
+                  <div class="note">
+                    <h4>Chronologie des évènements</h4>
+                    <p><strong>Il y a 3 mois -</strong> Pour se fournir une dose, Nancy laisse Jimmy la prostituer. On lui donne l’adresse de la
+                      déchetterie, sur les berges du Delaware, du côté de Camden. Elle se shoote sur place, entre deux passes,
+                      dans une petite chambre. Une nuit, profitant de sa torpeur, un profond se rend dans sa piaule pour se
+                      reproduire avec elle. Nancy en garde un souvenir diffus, mais terriblement traumatisant. Sa psyché
+                      refuse d’accepter ce qui lui est arrivé, elle se remémore donc vaguement d’un rapport, violent et non
+                      consenti avec un « hideux pêcheur ». Cependant, le choc lui donne l’énergie de s’enfuir, enfin, de ce
+                      taudis pour en rejoindre un autre, l’appart sordide de Jimmy.</p>
+                    <p><strong>Il y a 2 mois -</strong> Hantée par des cauchemars, Nancy quitte Jimmy et se résigne à retourner chez ses
+                      parents. Ravis qu’elle « rentre dans le rang », mais terrifiés par le scandale, ils la forcent à suivre une
+                      thérapie de groupe pour soigner son addiction dans le centre de Sobriety Now. À partir de ce moment,
+                      elle passe ses journées là-bas et ses nuits dans la résidence familiale, à la garde des domestiques, ses
+                      parents préférant rester à Washington DC, loin de leur embarrassante fille unique.</p>
+                      <p><strong>Il y a 1 mois -</strong> Les premiers symptômes de sa grossesse rendent Nancy apathique. Elle perd sa volonté,
+                        mais elle devient aussi docile. Cette métamorphose est attribuée, à tort, à sa lutte contre son addiction.
+                        En fait, son métabolisme transformé l’a guéri (temporairement) des affres de sa dépendance à
+                        l’héroïne.</p>
+                    <p><strong>Le jour de l’intervention</strong></p>
+                    <p><strong>9 h 00 -</strong> Jimmy intercepte Nancy, hagard, alors qu’elle se rend à Sobriety Now, et, en la menaçant de
+                      son arme, il la force à rentrer dans sa voiture. Même sans avoir vu le pistolet dans la main de l’Afro-Américain,
+                      le gardien de l’immeuble note l’interaction comme suspecte.</p>
+                    <p><strong>9 h 15 -</strong> Les trois employés de Trash Delaware Mng se faufilent dans le repaire à camé pour y attendre
+                      Jimmy et Nancy.</p>
+                    <p><strong>9 h 30 -</strong> La voiture de Jimmy arrive devant le squat, l’un des dealers sort pour l’accueillir. Ils rentrent
+                      rapidement, laissant le véhicule là. À l’intérieur, Jimmy se rend à la cave où le trio d’Asiatiques l’attend.</p>
+                    <p><strong>9 h 45 -</strong> Les trois cultistes quittent les lieux, avec Nancy, après avoir exécuté Jimmy.</p>
+                  <p><strong>10 h 00 -</strong> Les parents de Nancy, informés de la disparition de leur fille, contactent son oncle, Jarvis T.
+                    Berlin. Celui-ci confie immédiatement le dossier au bureau des Liaisons, pour s’assurer que Swift et ses
+                    agents chapeautent l’assaut du SWAT. Le message transmis à Swift est clair : leur mission est de garantir
+                    que la jeune fille en ressort indemne.</p>
+                  <p><strong>11 h 00 (début du scénario) -</strong> Le SWAT et les Liaisons préparent l’assaut, après avoir localisé la planque
+                    grâce aux caméras de gestion du trafic (et celle d’un hélicoptère).</p>
+                  </div>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739724279610
+          modifiedTime: 1739725011218
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 700000
+        name: Chez les parents de Nancy
+        type: text
+        _id: 7Y0C2litrzvJdubf
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+            <blockquote class="insert-droite">
+              <div class="note">
+              <h4>Daughters of the American Revolution</h4>
+              <p>Les Filles de la révolution américaine
+                (Daughters of the American Revolution ou DAR)
+                sont une organisation américaine réservée aux
+                descendantes d’une personne, civile ou militaire,
+                impliquée dans l’instauration de l’indépendance
+                des États-Unis en 17761.</p>
+                <p>L’organisation oeuvre à la préservation de
+                  l’histoire du pays, ainsi qu’à la « bonne »
+                  éducation et aux bonnes moeurs. Le DAR est
+                  présent dans les cinquante États du pays, mais
+                  également à l’étranger comme en Australie, aux
+                  Bahamas, au Canada, en France, en Allemagne,
+                  au Japon, au Mexique, en Espagne et au
+                  Royaume-Uni. Sa devise est « God, Home, and
+                  Country » (« Dieu, Foyer, et Patrie »).</p>
+                </div>
+            </blockquote>
+            <p>Les parents de Nancy Berlin sont à Washington
+              DC (Mike est lobbyiste et son épouse Nicole est
+              occupée par des réunions de l’association Daughters
+              of the American Revolution (cf. encart ci-contre).
+              Les Liaisons ne peuvent pas les contacter et auront,
+              au mieux, à faire à leurs avocats, qui feront mine
+              de collaborer, sans leur donner aucune information
+              utile, ni vraiment répondre à leurs questions.</p>
+
+            <p>Sur place, c’est le majordome qui dirige la maison.
+              C’est un Britannique quarantenaire du nom de Trent
+              Jackson, doté d’un fort accent de Manchester.
+              Sincèrement attaché à Nancy, qu’il a vu grandir, il
+              peut être convaincu de laisser les Liaisons fouiller sa
+              chambre. Les avocats, par contre, s’y opposent, mais,
+              si les Liaisons insistent auprès de leur hiérarchie,
+              Swift peut obtenir un mandat de perquisition d’un
+              juge, à l’aide des connexions de Guy Moore (cf. Rouge Delaware, p. 7). Cependant, il leur indiquera que
+              « si cette perquisition ne dévoile rien, nous aurons de
+              sérieux problèmes ».</p>
+
+            <h2>La chambre</h2>
+             
+            <p>Dans la chambre se trouve, éteint, l’ancien
+              téléphone de Nancy (celui de sa « précédente vie »),
+              ainsi que les journaux qu’elle a écrits depuis le début
+              de sa thérapie chez <em>Sobriety Now</em>. Leur étude poussée
+              révèle (test de Torche) une période de prostitution,
+              plus ou moins forcée, à laquelle elle fait allusion, sans
+              donner plus de détail. Si le contenu du carnet permet
+              de comprendre que c’est Jimmy qui était à l’initiative
+              de sa prostitution, Nancy, elle, ne semble pas le tenir
+              comme responsable de la situation. C’est un élément
+              qui indique que le dealer avait une certaine emprise
+              sur la jeune fille, à son insu.</p>
+              <p>Si les premiers journaux intimes sont remplis de
+                réflexions et gribouillages, peu à peu, leurs textes
+                deviennent progressivement plus laconiques,
+                répétitifs et ne révèlent plus rien d’utile aux Liaisons.
+                Sa grossesse monstrueuse n’y est pas mentionnée
+                (Nancy est dans le déni le plus complet à ce sujet).
+                Ils s’arrêtent finalement un mois avant le début de
+                l’enquête.</p>
+              <p>Le vieux téléphone fournit un indice important,
+                car il permet également de retrouver Nancy.
+                En le rallumant, et en regardant l’historique de
+                géolocalisation, les Liaisons peuvent découvrir
+                qu’elle a passé plusieurs semaines dans une vieille
+                bâtisse décatie au sein d’une déchetterie avant de
+                retourner chez ses parents.</p>
+
+
+                  <div class="note">
+                    <h4>Et si les liaisons piétinent ?</h4>
+                    <p>Si les Liaisons n’ont ni trouvé le téléphone de
+                      Nancy, ni remonté la piste des ravisseurs jusqu’au
+                      van, c’est finalement un coup de chance qui
+                      peut les mener vers la déchetterie. Les Bloods
+                      n’appréciant que peu l’intention des autorités
+                      que cette histoire fait peser sur leur territoire,
+                      l’un d’eux contacte, depuis un « burner », les
+                      Liaisons pour leur dire que les « kidnappeurs
+                      ont utilisé un vieux van qui appartient à cette
+                      déchetterie, sur la rive de Camden… ». Le gang,
+                      plus à même d’obtenir l’assistance des locaux
+                      que les autorités, a fait leur travail à leur place
+                      - leur supérieur se fera un plaisir de leur faire
+                      cette remarque lors du débriefing…</p>
+                  </div>
+                  <img src="modules\cthack-poisse\assets\artwork\ambiance\enquete.webp" />
+                  <p class="centre">@UUID[Scene.GGoz389CW5qAEAWM]{Enquête}<br />@UUID[JournalEntry.zbTpsqELJgyypsoV.JournalEntryPage.1yZTA9QqMxOmJsRe]{Enquête}</p>
+
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739725132775
+          modifiedTime: 1739953514550
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 800000
+        name: Final
+        type: text
+        _id: xInZ5DDVz5x32OTW
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+            <p>Une fois que les Liaisons ont établi que Nancy se
+              trouve probablement à la déchetterie, l’enquête
+              touche à sa fin. Cependant, sa résolution n’est pas
+              simple.</p>
+              <p>Il est théoriquement possible d’obtenir, auprès
+                d’un juge, un mandat de perquisition et débarquer,
+                en force, avec l’appui des SWAT de Camden. Mais
+                Swift déconseille cette approche. La déchetterie est
+                une vaste zone à explorer, il redoute que Nancy soit
+                éliminée ou même déplacée avant que l’opération
+                ne réussisse. Il craint aussi (et à raison) que la
+                corruption rampante à Phila ne joue contre eux.
+                C’est un cabinet d’avocat de Boston qui possède
+                l’entreprise (cf. <em>Affaires Connexes</em> p. 10), il est
+                concevable qu’il soit informé de la demande de
+                mandat. Il n’est pas clair si la société de traitement
+                des déchets ou même ce cabinet est directement
+                impliqué dans l’affaire, mais c’est un gros risque
+                (pour Nancy) de parier sur le contraire.</p>
+              <p>Finalement, sans le dire ouvertement, leur
+                supérieur leur suggère de visiter (illégalement)
+                les lieux, probablement de nuit, pour confirmer
+                que Nancy s’y trouve. Si les choses dérapent, les
+                Liaisons pourront toujours prétendre (de manière
+                peu vraisemblable) qu’ils ont entendu ses appels
+                à l’aide et qu’ils ont donc agi dans l’urgence, et,
+                de cette manière, convoquer le SWAT et la police
+                de Camden à la rescousse. Cette entorse aux
+                procédures, qui ne fonctionne que dans les séries
+                télé, fera l’affaire… Si et seulement si les Liaisons
+                ont pu ainsi sauver la jeune fille.</p>
+
+                <h2>Sur place</h2>
+                <p>Les serviteurs des Profonds ont à nouveau logé
+                  la jeune fille dans un bâtiment annexe et délabré
+                  de la déchetterie (5 sur le plan ci-dessous). Une fois
+                  dans les lieux, il est possible aux Liaisons d’identifier
+                  celui-ci grâce aux allusions de Nancy dans ses
+                  journaux (test de Torche). Elle a décrit quelques fois
+                  ce qu’elle pouvait apercevoir depuis « sa prison » et là les Liaisons peuvent trianguler, en quelque
+                  sorte, la position de l’édifice.</p>
+                <p>La sécurité est minimale : deux gardiens, fournis
+                  par une société de surveillance lambda, font le
+                  tour de la zone et il est aisé de se faufiler sur le
+                  site sans qu’ils ne remarquent quoi que ce soit. Une
+                  Sauvegarde de Dextérité avec Avantage suffit. En
+                  cas d’échec, les vigiles n’ouvrent pas le feu et ne
+                  cherchent pas à attaquer les Liaisons. Ils vont tenter
+                  de chasser les intrus tout en notifiant les autorités.</p>
+
+                  <img src="modules\cthack-poisse\assets\maps\dechetterie_mj.webp" />
+                  <p class="centre">@UUID[Scene.RYVTnVcZCwrNEKcM]{Plan de la déchetterie (MJ)}<br />
+                  @UUID[JournalEntry.zbTpsqELJgyypsoV.JournalEntryPage.xK7S4l5XzQmLSFEM]{Plan de la déchetterie (MJ)}<br />
+                  @UUID[Scene.Rf1VTeZrdy0tmi0m]{Plan de la déchetterie (PJ)}<br />
+                  @UUID[JournalEntry.zbTpsqELJgyypsoV.JournalEntryPage.aH2jq1t4anHPyxYa]{Plan de la déchetterie (PJ)}</p>
+
+                  <h2>Action</h2>
+                  <p>Au moment où ils pénètrent dans l’enceinte,
+                    signalez aux Liaisons que la Poisse est à proximité,
+                    dans l’est de Camden. Celle-ci va progressivement se
+                    rapprocher de la déchetterie alors qu’ils l’explorent.
+                    C’est un pur hasard, qui sera une véritable aubaine
+                    pour eux (voir plus loin).</p>
+                    <p>Partant du principe que les Liaisons opèrent de
+                      nuit, les Profonds sous les lieux, eux, sentent leur
+                      présence. Quelques-unes de ces créatures émergent
+                      alors et commencent par éliminer les deux gardiens
+                      de nuit, idéalement en les poussant à l’eau avant de
+                      les noyer. Leur disparition subite prévient ainsi les
+                      Liaisons que « quelque chose cloche ».</p>
+                      <div class="note"><h4>Les @UUID[Actor.Z0FEJm3iY5s9Ko6p]{Profonds} (Menace)</h4><img class="centre" src="modules\cthack-poisse\assets\characters\npc\profond.webp" />  <p><strong>Dés de Vie :</strong> 1</p>
+                        <p><strong>Dés de Vie :</strong> 4</p>
+                        <p><strong>Points de Vie :</strong> 14</p>
+                          <p><strong>Points d’Armure :</strong> 6</p>
+                        <p><strong>Malus au toucher :</strong> -3</p>
+                      <p><strong>Attaques :</strong> Griffes (5 dégâts)</p>
+                      <p><strong>Capacités spéciales :</strong>         </p>
+                      <ul>
+                        <li><strong>Amphibie :</strong> combat avec Avantage sous l’eau.</li>
+                        <li><strong>Modelage :</strong> peut liquéfier le métal avec ses
+                          mains.</li>
+                      </ul>
+             
+                     </div> 
+
+                    <p>Pendant quelques Moments, les monstres jouent
+                      au chat et à la souris avec les policiers. Respectez
+                      bien le principe de <em>Cthulhu Hack</em> et de <em>Rouge
+                      Delaware</em> en ne nommant pas ces monstres ! Ce sont
+                      des « silhouettes inhumaines » qui « bondissent
+                      près d’eux », dotées d’« abominables griffes »,
+                      avant de disparaitre à nouveau, à peine blessées par
+                      les éventuelles ripostes. Les Liaisons ne doivent pas
+                      savoir ce qu’ils affrontent véritablement, juste que
+                      « ces choses » sont dangereuses. Ils ne remarquent
+                      leur approche que grâce à la terrible odeur de
+                      poissons pourris, qui domine subitement celle des
+                      ordures lorsque ces créatures sont à proximité.</p>
+                    <p>Alors que l’étau se resserre sur les Liaisons, la
+                      Poisse se lève sur Camden. Sans toucher encore
+                      le vieil édifice, à moitié en ruine, elle envahit
+                      doucement le périmètre de la déchetterie. Son
+                      apparition arrête les Profonds dans leurs actions.
+                      Après un bref instant, les créatures aquatiques
+                      optent pour un repli stratégique vers le Delaware.
+                      La brume mystique vient de sauver les Liaisons et
+                      peut-être même Nancy.</p>
+
+
+
+
+                  <div class="note">
+                    <h4>Et si les liaisons s’infiltrent pendant la journée ?</h4>
+                    <p>Si les Liaisons ont opté pour s’infiltrer dans le site pendant la journée, les trois monstres sont remplacés
+                      par le trio d’Asiatique, en fait des hybrides, qui détectent tout autant leur présence et convergent
+                      vers eux. Ils sont plus discrets, car tous les ouvriers sur les lieux ne sont pas membres du culte et encore
+                      moins les visiteurs venus déposer leurs déchets, cependant, ils feront tout pour se débarrasser d’eux,
+                      une fois acculés dans la partie de la zone qui est à l’abandon. Comme les véritables Profonds, leurs assauts
+                      contre eux sont arrêtés par l’approche de la Poisse.</p>
+                  </div>
+                  <img src="modules\cthack-poisse\assets\artwork\ambiance\enquete.webp" />
+                  <p class="centre">@UUID[Scene.GGoz389CW5qAEAWM]{Enquête}<br />@UUID[JournalEntry.zbTpsqELJgyypsoV.JournalEntryPage.1yZTA9QqMxOmJsRe]{Enquête}</p>
+
+                  <h2>Sauver Nancy</h2>
+                  <p>Nancy, shootée à l’héroïne de force, est en
+                    mauvais état. La drogue et la nature inhumaine
+                    de sa grossesse mettent terriblement son corps
+                    à l’épreuve. Alors que les Liaisons la découvrent,
+                    gisant sur un lit de camp, une trace de sang entre
+                    ses jambes indique qu’elle est en train de faire une
+                    fausse couche. L’horrible chose, coincée dans son
+                    utérus, n’y survivra pas (l’approche de la Poisse l’a
+                    tué), mais les Liaisons ont peut-être une chance
+                    de lui sauver la vie, en se précipitant à l’hôpital le
+                    plus proche ou la protégeant en attendant que les
+                    premiers secours n’arrivent.</p>
+
+                    <h2>Épilogue</h2>
+                    <p>Quoiqu’il en soit, l’affaire sera étouffée et le
+                      rapport d’autopsie sera scellé par un juge proche
+                      des Berlin (sous l’impulsion de la Noblesse, cf. <em>Rouge
+                      Delaware</em> p. 25). Le cabinet Marsh, propriétaire du
+                      la déchetterie, fera porter le chapeau au trio qui
+                      a kidnappé Nancy, qui auront soit trouvé la mort
+                      dans le raid, soit mis fin à leur jour une fois arrêté.
+                      Le foetus en lui-même disparait rapidement et sans
+                      explication de la morgue. Ce sont les industries
+                      Ferguson qui sont responsables de ce larcin
+                      particulièrement bien exécuté, qui ne laissera
+                      aucune trace (cf. <em>Le Sixième Sceau</em>, p. 55).</p>
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739726063643
+          modifiedTime: 1739953514578
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 900000
+        name: Prétirés
+        type: text
+        _id: lPR5cOcH4AOfakVi
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: "<div class=\"delaware-mod\">\n\n\n<h2 class=\"perso\">Kadeem Harrigan</h2>\n<div class=\"two-col\">\n\n  <img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\kadeem_harrigan.webp\" />\n  <p><span class=\"credits-texte centre\">Données personnelles</span><br />Ancien flic en uniforme de Baltimore, qui a été\n    refourgué au service des Liaisons après que les\n    services internes aient mené une enquête, sans\n    succès, sur l’impropriété de sa relation personnelle\n    avec une informatrice (une prostituée, retrouvée\n    morte). Costaud et habitué à la violence des rues,\n    il déteste les gangs, en particulier, les Bloods (qui\n    donnent une mauvaise image aux Afro-Américains)\n    et les Pagans.</p>\n</div>\n  \n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">9</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d4</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d4</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d10</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">16</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">D6/D8</span> </p>\n  \n\n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.</p>\n</div>\n\n\n  <h2 class=\"perso\">Vashti Najafi</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\vashti_najafi.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Iranienne née aux USA de troisième génération,\n  c’est une beauté persane, mais aussi une brillante\n  étudiante. Elle réussit ainsi à intégrer le FBI et envoyé\n  suivre une formation de profiler à Quantico. Là, elle\n  cède à la pression, et prétend souffrir de troubles de\n  comportements pour prendre de l’adderall. Le FBI\n  découvre sa manigance et la refourgue à Guy Moore\n  et au Bureau de Liaisons.</p>\n</div>\n\n<h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">7</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">15</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">12</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d12</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d4</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">10</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">1/1</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Polyvalent :</strong> une fois par session vous pouvez relancer un test de Sauvegarde que vous avez échoué.</p>\n  <p><strong>Érudit :</strong> une fois par heure de jeu, vous réussissez automatiquement une Sauvegarde d’Intelligence ou\n    de Sagesse.</p>\n</div>\n\n  <h2 class=\"perso\">David McCarthy</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\david_mccarthy.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Inspecteur aux moeurs (Vice) à Cleveland, suite\n  à une arrestation qui a fini en bavure, laissant un\n  jeune Afro-Américain sur le carreau. Les services\n  internes l’ont innocenté, mais l’esclandre a forcé sa\n  hiérarchie à le muter au bureau des Liaisons. Stressé\n  et fatigué, David se remet encore d’un ulcère récent\n  (et mal soigné).</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">11</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d8</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d6</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d8</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d8</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">14</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d6</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Dites-moi tout :</strong> le personnage bénéficie d’un Avantage aux tests visant à obtenir des aveux ou des\n  confidences.</p>\n  <p><strong>Indomptable :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes contre la tromperie, le\n    contrôle mental ou lorsqu’il tente de tromper son interlocuteur.</p>\n</div>\n\n  <h2 class=\"perso\">Lucia Rodriguez</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\lucia_rodriguez.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Fille de réfugiés cubains, elle a grandi sur les\n  plages d’Orlando et les petites frappes de la ville.\n  Malgré ces accointances, la jeune surfeuse devient\n  garde-côtes. Malheureusement, son dossier est\n  entaché par une accusation, fondée, de corruption\n  au sein de son équipe. Elle est innocente et, pour\n  sauver sa carrière, on la transfère au service des\n  Liaisons, avec la fonction honorifique de faire le\n  lien avec la Police Marine Unit de la ville. Dépitée, la\n  jeune femme déteste la glaciale Philadelphie, et sa\n  famille et ses proches lui manquent…</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">14</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d10</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d6</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d6</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">12</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d4</span> </p>\n  \n  \n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.\n      David</p>\n  </div>\n\n</div>"
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739780449869
+          modifiedTime: 1739953514602
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 1000000
+        name: Gamme Rouge Delaware
+        type: text
+        _id: N5tkuc39lwNrNTIh
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: |-
+            <div class="delaware-mod">
+              <img class="image-small" src="modules\cthack-poisse\assets\artwork\delaware_pub.webp" />
+
+            </div>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739806659595
+          modifiedTime: 1739806906311
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739712152997
+      modifiedTime: 1739722824112
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+    categories: []
+  - folder: AWFdNTfthBXGc1U7
+    name: Images
+    _id: zbTpsqELJgyypsoV
+    pages:
+      - sort: 100000
+        name: Accueil
+        type: image
+        _id: tkTESOmu2QlTjESD
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/artwork/ambiance/intro.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739717410837
+          modifiedTime: 1739717415328
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 200000
+        name: Planque
+        type: image
+        _id: RCQRMeacR9mDJpIj
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/artwork/ambiance/planque.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739717532155
+          modifiedTime: 1739717536059
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 300000
+        name: Enquête
+        type: image
+        _id: 1yZTA9QqMxOmJsRe
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/artwork/ambiance/enquete.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739725961393
+          modifiedTime: 1739725965597
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 400000
+        name: Plan de la déchetterie (MJ)
+        type: image
+        _id: xK7S4l5XzQmLSFEM
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/maps/dechetterie_mj.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739727433528
+          modifiedTime: 1739727439215
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 500000
+        name: Plan de la déchetterie (PJ)
+        type: image
+        _id: aH2jq1t4anHPyxYa
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/maps/dechetterie_pj.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739727449646
+          modifiedTime: 1739727455935
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+    sort: 300000
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739717334441
+      modifiedTime: 1739722822712
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+    categories: []
+  - folder: AWFdNTfthBXGc1U7
+    name: PJ
+    _id: 6oeptpztRy680tzD
+    pages:
+      - sort: 100000
+        name: Kadeem Harrigan
+        type: image
+        _id: smodylTCdJ8yfXvX
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/pc/kadeem_harrigan.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739731858144
+          modifiedTime: 1739731868455
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 200000
+        name: Vashti Najafi
+        type: image
+        _id: Qi55in8yMjPiUmJx
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/pc/vashti_najafi.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739731884614
+          modifiedTime: 1739731889612
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 300000
+        name: David McCarthy
+        type: image
+        _id: LNAGR8HhHbjCjDvb
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/pc/david_mccarthy.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739731908232
+          modifiedTime: 1739731913999
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+      - sort: 400000
+        name: Lucia Rodriguez
+        type: image
+        _id: GFFPvz1EKMc6gxWa
+        system: {}
+        title:
+          show: true
+          level: 1
+        image:
+          caption: ''
+        text:
+          format: 1
+        video:
+          controls: true
+          volume: 0.5
+        src: modules/cthack-poisse/assets/characters/pc/lucia_rodriguez.webp
+        ownership:
+          default: -1
+          LYduACDti2s7nrlE: 3
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.347'
+          systemId: cthack
+          systemVersion: 4.2.0
+          createdTime: 1739731948607
+          modifiedTime: 1739731954414
+          lastModifiedBy: LYduACDti2s7nrlE
+          exportSource: null
+        category: null
+    sort: 400000
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739731841804
+      modifiedTime: 1739731845494
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+    categories: []
+scenes:
+  - folder: S5h5SACplg5k4OZz
+    name: Accueil
+    _id: PKfwJUHO35fy5D78
+    active: true
+    navigation: true
+    navOrder: 0
+    navName: ''
+    background:
+      src: modules/cthack-poisse/assets/artwork/ambiance/intro.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: 20
+    thumb: worlds/poisse/assets/scenes/PKfwJUHO35fy5D78-thumb.webp
+    width: 4000
+    height: 2632
+    padding: 0.25
+    initial:
+      x: 2937
+      'y': 2038
+      scale: 0.3830360482895367
+    backgroundColor: '#000000'
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 5
+      units: ft
+    tokenVision: false
+    fog:
+      exploration: false
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: true
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings: []
+    tokens: []
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739717352364
+      modifiedTime: 1739717631740
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: S5h5SACplg5k4OZz
+    name: Enquête
+    _id: GGoz389CW5qAEAWM
+    active: false
+    navigation: true
+    navOrder: 0
+    navName: ''
+    background:
+      src: modules/cthack-poisse/assets/artwork/ambiance/enquete.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: 20
+    thumb: worlds/poisse/assets/scenes/GGoz389CW5qAEAWM-thumb.webp
+    width: 2087
+    height: 1088
+    padding: 0.25
+    initial:
+      x: null
+      'y': null
+      scale: 0.5
+    backgroundColor: '#000000'
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 5
+      units: ft
+    tokenVision: false
+    fog:
+      exploration: false
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: true
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings: []
+    tokens: []
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739725912237
+      modifiedTime: 1739725934627
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: S5h5SACplg5k4OZz
+    name: Plan de la déchetterie (MJ)
+    _id: RYVTnVcZCwrNEKcM
+    active: false
+    navigation: true
+    navOrder: 0
+    navName: ''
+    background:
+      src: modules/cthack-poisse/assets/maps/dechetterie_mj.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: 20
+    thumb: worlds/poisse/assets/scenes/RYVTnVcZCwrNEKcM-thumb.webp
+    width: 2036
+    height: 1978
+    padding: 0.25
+    initial:
+      x: 1618
+      'y': 1489
+      scale: 0.7035502113281252
+    backgroundColor: '#000000'
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 5
+      units: ft
+    tokenVision: false
+    fog:
+      exploration: false
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: true
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings: []
+    tokens: []
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739727289908
+      modifiedTime: 1739727366490
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - folder: S5h5SACplg5k4OZz
+    name: Plan de la déchetterie (PJ)
+    active: false
+    navigation: false
+    navOrder: 0
+    navName: ''
+    background:
+      src: modules/cthack-poisse/assets/maps/dechetterie_pj.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: 20
+    thumb: worlds/poisse/assets/scenes/Rf1VTeZrdy0tmi0m-thumb.webp
+    width: 2036
+    height: 1978
+    padding: 0.25
+    initial:
+      x: 1618
+      'y': 1489
+      scale: 0.7756641079892581
+    backgroundColor: '#000000'
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 5
+      units: ft
+    tokenVision: false
+    fog:
+      exploration: false
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: true
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings: []
+    tokens: []
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: Scene.RYVTnVcZCwrNEKcM
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739727327242
+      modifiedTime: 1739727379344
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+    _id: Rf1VTeZrdy0tmi0m
+  - folder: S5h5SACplg5k4OZz
+    name: Planque
+    _id: 2lDpregKOYCNKMH9
+    active: false
+    navigation: true
+    navOrder: 0
+    navName: ''
+    background:
+      src: modules/cthack-poisse/assets/artwork/ambiance/planque.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: 20
+    thumb: worlds/poisse/assets/scenes/2lDpregKOYCNKMH9-thumb.webp
+    width: 2031
+    height: 894
+    padding: 0.25
+    initial:
+      x: 1615
+      'y': 747
+      scale: 0.897928163011065
+    backgroundColor: '#000000'
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 5
+      units: ft
+    tokenVision: false
+    fog:
+      exploration: false
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: true
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings: []
+    tokens: []
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    ownership:
+      default: 0
+      LYduACDti2s7nrlE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739717440296
+      modifiedTime: 1739717616633
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+tables: []
+macros: []
+cards: []
+playlists: []
+folders:
+  - name: Perdus dans la poisse
+    sorting: a
+    folder: null
+    type: Scene
+    _id: S5h5SACplg5k4OZz
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: Folder.S5h5SACplg5k4OZz
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739712084171
+      modifiedTime: 1739712084171
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - name: Perdus dans la poisse
+    sorting: a
+    folder: null
+    type: Actor
+    _id: ODWlTjw4eXS3Z6hn
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: Folder.ODWlTjw4eXS3Z6hn
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739712097539
+      modifiedTime: 1739712097539
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - name: PJ
+    sorting: a
+    folder: ODWlTjw4eXS3Z6hn
+    type: Actor
+    _id: LdFJClEp6TtOSE2J
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739720970033
+      modifiedTime: 1739720970033
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - name: PNJ
+    sorting: a
+    folder: ODWlTjw4eXS3Z6hn
+    type: Actor
+    _id: umycQsilwONOvrCB
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739720963100
+      modifiedTime: 1739720963100
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - name: Perdus dans la poisse
+    sorting: m
+    folder: null
+    type: JournalEntry
+    _id: AWFdNTfthBXGc1U7
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: Folder.AWFdNTfthBXGc1U7
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739712061436
+      modifiedTime: 1739712066660
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+  - name: Perdus dans la poisse
+    sorting: a
+    folder: null
+    type: Item
+    _id: z4YdoUBlTMpqwJKY
+    description: ''
+    sort: 0
+    color: '#af0808'
+    flags: {}
+    _stats:
+      compendiumSource: Folder.z4YdoUBlTMpqwJKY
+      duplicateSource: null
+      coreVersion: '13.347'
+      systemId: cthack
+      systemVersion: 4.2.0
+      createdTime: 1739732217069
+      modifiedTime: 1739732217069
+      lastModifiedBy: LYduACDti2s7nrlE
+      exportSource: null
+_id: mZbPFA1uVvL4WoSN
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: cthack
+  systemVersion: 4.2.0
+  createdTime: 1739734088690
+  modifiedTime: 1739953559025
+  lastModifiedBy: LYduACDti2s7nrlE
+  exportSource: null
+_key: '!adventures!mZbPFA1uVvL4WoSN'
