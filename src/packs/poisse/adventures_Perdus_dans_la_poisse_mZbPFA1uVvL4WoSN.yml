@@ -197,7 +197,7 @@ actors:
           compendiumSource: Item.XKKv6w1z3wP0b208
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -231,7 +231,7 @@ actors:
           compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -275,7 +275,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -301,7 +301,7 @@ actors:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -310,18 +310,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856418473
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: LdFJClEp6TtOSE2J
@@ -491,7 +490,7 @@ actors:
           compendiumSource: Item.uLeoN6S4r5DWyxoR
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -542,7 +541,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -568,7 +567,7 @@ actors:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -577,18 +576,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
-      compendiumSource: Actor.bgqVDHYZMZImVlME
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856426236
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: LdFJClEp6TtOSE2J
@@ -757,7 +755,7 @@ actors:
           compendiumSource: Item.3SfNP7zMMWMUgboC
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -809,7 +807,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -835,7 +833,7 @@ actors:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -844,18 +842,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
-      compendiumSource: Actor.ukZPQNhOxXpTgmhr
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856413597
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: LdFJClEp6TtOSE2J
@@ -1030,7 +1027,7 @@ actors:
           compendiumSource: Item.XKKv6w1z3wP0b208
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1064,7 +1061,7 @@ actors:
           compendiumSource: Compendium.cthack.abilities.Item.cOow0hiXrMwQtD8J
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1108,7 +1105,7 @@ actors:
           compendiumSource: Item.Fqe8BKh5suqGfVF1
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1117,18 +1114,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
-      compendiumSource: Actor.0dOPomcDtMT1YuEO
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856422334
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: umycQsilwONOvrCB
@@ -1251,7 +1247,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1260,18 +1256,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856433123
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: umycQsilwONOvrCB
@@ -1388,7 +1383,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1414,7 +1409,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1440,7 +1435,7 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1449,18 +1444,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856437919
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
   - folder: umycQsilwONOvrCB
@@ -1563,18 +1557,17 @@ actors:
     effects: []
     sort: 0
     flags:
-      cthack:
-        SheetUnlocked: SheetUnlocked
+      cthack: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866023
-      modifiedTime: 1767818866023
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398664
+      modifiedTime: 1767856435422
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
 combats: []
@@ -1599,12 +1592,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866045
-      modifiedTime: 1767818866045
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398718
+      modifiedTime: 1767856398718
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
 journal:
@@ -1633,13 +1626,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856519140
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 200000
         name: Les Bloods
         type: image
@@ -1661,13 +1655,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856523872
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 300000
         name: Les Profonds
         type: image
@@ -1689,28 +1684,29 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856527411
         category: null
         ownership:
-          default: -1
+          default: 0
     sort: 350000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866052
-      modifiedTime: 1767818866052
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398730
+      modifiedTime: 1767856513855
+      lastModifiedBy: QV72oRvU18hvPBFD
     categories: []
     ownership:
-      default: 0
+      default: 2
   - folder: AWFdNTfthBXGc1U7
     name: Perdus dans la poisse
     _id: dUcYjaxFcmnaS0cO
@@ -1829,7 +1825,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1901,7 +1897,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -1962,7 +1958,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2039,7 +2035,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2174,7 +2170,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2299,7 +2295,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2422,7 +2418,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2603,7 +2599,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2621,7 +2617,7 @@ journal:
         image: {}
         text:
           format: 1
-          content: "<div class=\"delaware-mod\"><h2 class=\"perso\">@UUID[Actor.xc4sPJYomHEDycZI]{Kadeem Harrigan}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\kadeem_harrigan.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Ancien flic en uniforme de Baltimore, qui a été refourgué au service des Liaisons après que les services internes aient mené une enquête, sans succès, sur l’impropriété de sa relation personnelle avec une informatrice (une prostituée, retrouvée morte). Costaud et habitué à la violence des rues, il déteste les gangs, en particulier, les Bloods (qui donnent une mauvaise image aux Afro-Américains) et les Pagans.</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">9</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d4</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d4</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d10</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">16</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">D6/D8</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges ou les machines pouvant le blesser ou l’entraver.</p><p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des capacités athlétiques, comme grimper, sauter ou se balancer.</p></div><h2 class=\"perso\">@UUID[Actor.bgqVDHYZMZImVlME]{Vashti Najafi}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\vashti_najafi.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Iranienne née aux USA de troisième génération, c’est une beauté persane, mais aussi une brillante étudiante. Elle réussit ainsi à intégrer le FBI et envoyé suivre une formation de profiler à Quantico. Là, elle cède à la pression, et prétend souffrir de troubles de comportements pour prendre de l’adderall. Le FBI découvre sa manigance et la refourgue à Guy Moore et au Bureau de Liaisons.</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">7</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">15</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">12</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d12</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d4</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">10</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">1/1</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Polyvalent :</strong> une fois par session vous pouvez relancer un test de Sauvegarde que vous avez échoué.</p><p><strong>Érudit :</strong> une fois par heure de jeu, vous réussissez automatiquement une Sauvegarde d’Intelligence ou de Sagesse.</p></div><h2 class=\"perso\">@UUID[Actor.ukZPQNhOxXpTgmhr]{David McCarthy}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\david_mccarthy.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Inspecteur aux moeurs (Vice) à Cleveland, suite à une arrestation qui a fini en bavure, laissant un jeune Afro-Américain sur le carreau. Les services internes l’ont innocenté, mais l’esclandre a forcé sa hiérarchie à le muter au bureau des Liaisons. Stressé et fatigué, David se remet encore d’un ulcère récent (et mal soigné).</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">11</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d6</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d8</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d8</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">14</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d6</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Dites-moi tout :</strong> le personnage bénéficie d’un Avantage aux tests visant à obtenir des aveux ou des confidences.</p><p><strong>Indomptable :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes contre la tromperie, le contrôle mental ou lorsqu’il tente de tromper son interlocuteur.</p></div><h2 class=\"perso\">@UUID[Actor.0dOPomcDtMT1YuEO]{Lucia Rodriguez}</h2><div class=\"two-col\"><img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\lucia_rodriguez.webp\" /><p><span class=\"credits-texte centre\">Données personnelles</span><br />Fille de réfugiés cubains, elle a grandi sur les plages d’Orlando et les petites frappes de la ville. Malgré ces accointances, la jeune surfeuse devient garde-côtes. Malheureusement, son dossier est entaché par une accusation, fondée, de corruption au sein de son équipe. Elle est innocente et, pour sauver sa carrière, on la transfère au service des Liaisons, avec la fonction honorifique de faire le lien avec la Police Marine Unit de la ville. Dépitée, la jeune femme déteste la glaciale Philadelphie, et sa famille et ses proches lui manquent…</p></div><h3 class=\"centre\">Statistiques d’entraînement</h3><p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">14</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p><p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d10</span>\_\_ <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_ <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d6</span></p><p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d6</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">12</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d4</span></p><div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges ou les machines pouvant le blesser ou l’entraver.</p><p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des capacités athlétiques, comme grimper, sauter ou se balancer. David</p></div></div>"
+          content: "<div class=\"delaware-mod\">\n\n\n<h2 class=\"perso\">Kadeem Harrigan</h2>\n<div class=\"two-col\">\n\n  <img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\kadeem_harrigan.webp\" />\n  <p><span class=\"credits-texte centre\">Données personnelles</span><br />Ancien flic en uniforme de Baltimore, qui a été\n    refourgué au service des Liaisons après que les\n    services internes aient mené une enquête, sans\n    succès, sur l’impropriété de sa relation personnelle\n    avec une informatrice (une prostituée, retrouvée\n    morte). Costaud et habitué à la violence des rues,\n    il déteste les gangs, en particulier, les Bloods (qui\n    donnent une mauvaise image aux Afro-Américains)\n    et les Pagans.</p>\n</div>\n  \n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">9</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d4</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d4</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d10</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">16</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">D6/D8</span> </p>\n  \n\n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.</p>\n</div>\n\n\n  <h2 class=\"perso\">Vashti Najafi</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\vashti_najafi.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Iranienne née aux USA de troisième génération,\n  c’est une beauté persane, mais aussi une brillante\n  étudiante. Elle réussit ainsi à intégrer le FBI et envoyé\n  suivre une formation de profiler à Quantico. Là, elle\n  cède à la pression, et prétend souffrir de troubles de\n  comportements pour prendre de l’adderall. Le FBI\n  découvre sa manigance et la refourgue à Guy Moore\n  et au Bureau de Liaisons.</p>\n</div>\n\n<h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">7</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">15</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">12</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d12</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d10</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d4</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d4</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">10</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">1/1</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Polyvalent :</strong> une fois par session vous pouvez relancer un test de Sauvegarde que vous avez échoué.</p>\n  <p><strong>Érudit :</strong> une fois par heure de jeu, vous réussissez automatiquement une Sauvegarde d’Intelligence ou\n    de Sagesse.</p>\n</div>\n\n  <h2 class=\"perso\">David McCarthy</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\david_mccarthy.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Inspecteur aux moeurs (Vice) à Cleveland, suite\n  à une arrestation qui a fini en bavure, laissant un\n  jeune Afro-Américain sur le carreau. Les services\n  internes l’ont innocenté, mais l’esclandre a forcé sa\n  hiérarchie à le muter au bureau des Liaisons. Stressé\n  et fatigué, David se remet encore d’un ulcère récent\n  (et mal soigné).</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n<p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">12</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">8</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">13</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">11</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n<p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d8</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d6</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d8</span> </p>\n<p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d8</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">14</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d6</span> </p>\n\n\n<div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Dites-moi tout :</strong> le personnage bénéficie d’un Avantage aux tests visant à obtenir des aveux ou des\n  confidences.</p>\n  <p><strong>Indomptable :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes contre la tromperie, le\n    contrôle mental ou lorsqu’il tente de tromper son interlocuteur.</p>\n</div>\n\n  <h2 class=\"perso\">Lucia Rodriguez</h2>\n  <div class=\"two-col\">\n<img class=\"pnj-portrait\" src=\"modules\\cthack-poisse\\assets\\characters\\pc\\lucia_rodriguez.webp\" />\n<p><span class=\"credits-texte centre\">Données personnelles</span><br />Fille de réfugiés cubains, elle a grandi sur les\n  plages d’Orlando et les petites frappes de la ville.\n  Malgré ces accointances, la jeune surfeuse devient\n  garde-côtes. Malheureusement, son dossier est\n  entaché par une accusation, fondée, de corruption\n  au sein de son équipe. Elle est innocente et, pour\n  sauver sa carrière, on la transfère au service des\n  Liaisons, avec la fonction honorifique de faire le\n  lien avec la Police Marine Unit de la ville. Dépitée, la\n  jeune femme déteste la glaciale Philadelphie, et sa\n  famille et ses proches lui manquent…</p>\n  </div>\n\n  <h3 class=\"centre\">Statistiques d’entraînement</h3>\n  <p class=\"centre\"><span class=\"carac-titre\">FORCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">DEXTERITÉ</span> <span class=\"carac-val\">14</span> <span class=\"carac-titre\">CONSTITUTION</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">SAGESSE</span> <span class=\"carac-val\">9</span> <span class=\"carac-titre\">INTELLIGENCE</span> <span class=\"carac-val\">10</span> <span class=\"carac-titre\">CHARISME</span> <span class=\"carac-val\">13</span></p>\n  <p class=\"centre\"><span class=\"carac-titre\">Torche</span> <span class=\"carac-val\">d10</span>\_\_  <span class=\"carac-titre\">Bagou</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Santé mentale</span> <span class=\"carac-val\">d8</span>\_\_   <span class=\"carac-titre\">Richesse</span> <span class=\"carac-val\">d6</span> </p>\n  <p class=\"centre\"><span class=\"carac-titre\">Dé de Vie</span> <span class=\"carac-val\">d6</span>\_ <span class=\"carac-titre\">Points de Vie</span> <span class=\"carac-val\">12</span>\_ <span class=\"carac-titre\">Points d’Armure</span> <span class=\"carac-val\">2</span>\_ <span class=\"carac-titre\">Dégâts (S/A)</span> <span class=\"carac-val\">d4/d4</span> </p>\n  \n  \n  <div class=\"note\"><h4>Capacités spéciales</h4><p><strong>Sens du danger :</strong> le personnage bénéficie d’un Avantage lors des Sauvegardes visant à éviter les pièges\n    ou les machines pouvant le blesser ou l’entraver.</p>\n    <p><strong>Agile :</strong> le personnage bénéficie d’un Avantage pour les Sauvegardes nécessitant des\n      capacités athlétiques, comme grimper, sauter ou se balancer.\n      David</p>\n  </div>\n\n</div>"
         video:
           controls: true
           volume: 0.5
@@ -2631,11 +2627,10 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: ROBweriRTrVO8ERT
-          modifiedTime: 1767819389743
+          lastModifiedBy: null
         category: null
         ownership:
           default: -1
@@ -2664,7 +2659,7 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
@@ -2677,12 +2672,12 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866052
-      modifiedTime: 1767818866052
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398730
+      modifiedTime: 1767856398730
+      lastModifiedBy: QV72oRvU18hvPBFD
     categories: []
     ownership:
       default: 0
@@ -2711,13 +2706,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856475755
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 200000
         name: Planque
         type: image
@@ -2739,13 +2735,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856480003
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 300000
         name: Enquête
         type: image
@@ -2767,13 +2764,13 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
           lastModifiedBy: null
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 400000
         name: Plan de la déchetterie (MJ)
         type: image
@@ -2795,13 +2792,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856487726
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 500000
         name: Plan de la déchetterie (PJ)
         type: image
@@ -2823,28 +2821,29 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856494124
         category: null
         ownership:
-          default: -1
+          default: 0
     sort: 300000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866052
-      modifiedTime: 1767818866052
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398730
+      modifiedTime: 1767856469199
+      lastModifiedBy: QV72oRvU18hvPBFD
     categories: []
     ownership:
-      default: 0
+      default: 2
   - folder: AWFdNTfthBXGc1U7
     name: PJ
     _id: 6oeptpztRy680tzD
@@ -2870,13 +2869,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856540068
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 200000
         name: Vashti Najafi
         type: image
@@ -2898,13 +2898,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856543049
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 300000
         name: David McCarthy
         type: image
@@ -2926,13 +2927,14 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856545923
         category: null
         ownership:
-          default: -1
+          default: 0
       - sort: 400000
         name: Lucia Rodriguez
         type: image
@@ -2954,28 +2956,29 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.350'
+          coreVersion: '13.351'
           systemId: cthack
           systemVersion: 5.5.1
-          lastModifiedBy: null
+          lastModifiedBy: QV72oRvU18hvPBFD
+          modifiedTime: 1767856549429
         category: null
         ownership:
-          default: -1
+          default: 0
     sort: 400000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866052
-      modifiedTime: 1767818866052
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398730
+      modifiedTime: 1767856536388
+      lastModifiedBy: QV72oRvU18hvPBFD
     categories: []
     ownership:
-      default: 0
+      default: 2
 scenes:
   - folder: S5h5SACplg5k4OZz
     name: Accueil
@@ -2997,7 +3000,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: 20
-    thumb: worlds/poisse/assets/scenes/PKfwJUHO35fy5D78-thumb.webp
+    thumb: worlds/poisse-4/assets/scenes/PKfwJUHO35fy5D78-thumb.webp
     width: 4000
     height: 2632
     padding: 0.25
@@ -3071,12 +3074,12 @@ scenes:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866073
-      modifiedTime: 1767818866944
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398761
+      modifiedTime: 1767856399876
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
     active: false
@@ -3100,14 +3103,14 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: 20
-    thumb: worlds/poisse/assets/scenes/GGoz389CW5qAEAWM-thumb.webp
+    thumb: worlds/poisse-4/assets/scenes/GGoz389CW5qAEAWM-thumb.webp
     width: 2087
     height: 1088
     padding: 0.25
     initial:
-      x: 1643
-      'y': 844
-      scale: 1.0581308177088735
+      x: null
+      'y': null
+      scale: 0.5
     backgroundColor: '#000000'
     grid:
       type: 0
@@ -3174,12 +3177,12 @@ scenes:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866073
-      modifiedTime: 1767819006168
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398761
+      modifiedTime: 1767856399876
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
     active: false
@@ -3203,7 +3206,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: 20
-    thumb: worlds/poisse/assets/scenes/RYVTnVcZCwrNEKcM-thumb.webp
+    thumb: worlds/poisse-4/assets/scenes/RYVTnVcZCwrNEKcM-thumb.webp
     width: 2036
     height: 1978
     padding: 0.25
@@ -3277,12 +3280,12 @@ scenes:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866073
-      modifiedTime: 1767818866944
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398761
+      modifiedTime: 1767856399876
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
     active: false
@@ -3305,7 +3308,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: 20
-    thumb: worlds/poisse/assets/scenes/Rf1VTeZrdy0tmi0m-thumb.webp
+    thumb: worlds/poisse-4/assets/scenes/Rf1VTeZrdy0tmi0m-thumb.webp
     width: 2036
     height: 1978
     padding: 0.25
@@ -3379,12 +3382,12 @@ scenes:
       compendiumSource: null
       duplicateSource: Scene.RYVTnVcZCwrNEKcM
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866073
-      modifiedTime: 1767818866944
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398761
+      modifiedTime: 1767856399876
+      lastModifiedBy: QV72oRvU18hvPBFD
     _id: Rf1VTeZrdy0tmi0m
     ownership:
       default: 0
@@ -3409,14 +3412,14 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: 20
-    thumb: worlds/poisse/assets/scenes/2lDpregKOYCNKMH9-thumb.webp
+    thumb: worlds/poisse-4/assets/scenes/2lDpregKOYCNKMH9-thumb.webp
     width: 2031
     height: 894
     padding: 0.25
     initial:
       x: 1615
       'y': 747
-      scale: 1.0914372941909687
+      scale: 0.897928163011065
     backgroundColor: '#000000'
     grid:
       type: 0
@@ -3483,12 +3486,12 @@ scenes:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866073
-      modifiedTime: 1767819027758
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398761
+      modifiedTime: 1767856399876
+      lastModifiedBy: QV72oRvU18hvPBFD
     ownership:
       default: 0
     active: false
@@ -3510,12 +3513,12 @@ folders:
       compendiumSource: Folder.S5h5SACplg5k4OZz
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866082
-      modifiedTime: 1767818866082
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398775
+      modifiedTime: 1767856398775
+      lastModifiedBy: QV72oRvU18hvPBFD
   - name: Perdus dans la poisse
     sorting: a
     folder: null
@@ -3529,12 +3532,12 @@ folders:
       compendiumSource: Folder.ODWlTjw4eXS3Z6hn
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866082
-      modifiedTime: 1767818866082
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398775
+      modifiedTime: 1767856398775
+      lastModifiedBy: QV72oRvU18hvPBFD
   - name: PJ
     sorting: a
     folder: ODWlTjw4eXS3Z6hn
@@ -3548,7 +3551,7 @@ folders:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
       lastModifiedBy: null
@@ -3565,7 +3568,7 @@ folders:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
       lastModifiedBy: null
@@ -3582,12 +3585,12 @@ folders:
       compendiumSource: Folder.AWFdNTfthBXGc1U7
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866082
-      modifiedTime: 1767818866082
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398775
+      modifiedTime: 1767856398775
+      lastModifiedBy: QV72oRvU18hvPBFD
   - name: Perdus dans la poisse
     sorting: a
     folder: null
@@ -3601,23 +3604,23 @@ folders:
       compendiumSource: Folder.z4YdoUBlTMpqwJKY
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: cthack
       systemVersion: 5.5.1
-      createdTime: 1767818866082
-      modifiedTime: 1767818866082
-      lastModifiedBy: ROBweriRTrVO8ERT
+      createdTime: 1767856398775
+      modifiedTime: 1767856398775
+      lastModifiedBy: QV72oRvU18hvPBFD
 _id: mZbPFA1uVvL4WoSN
 folder: null
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  coreVersion: '13.351'
   systemId: cthack
   systemVersion: 4.2.0
   createdTime: 1739734088690
-  modifiedTime: 1767819449843
-  lastModifiedBy: ROBweriRTrVO8ERT
+  modifiedTime: 1767856586361
+  lastModifiedBy: QV72oRvU18hvPBFD
   exportSource: null
 _key: '!adventures!mZbPFA1uVvL4WoSN'
