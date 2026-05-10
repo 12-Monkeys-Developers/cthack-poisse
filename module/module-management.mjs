@@ -81,9 +81,13 @@ export default class ModuleManagement {
    */
   async _adventureImportDisplay(systemId) {
     const adventurePack = await game.packs.get(this.systems[systemId].adventurePackName)
-    const adventureId = await adventurePack.index.find((a) => a.name === this.systems[systemId].adventurePackLabel)?._id
+    const adventureId = adventurePack.index.find((a) => a.name === this.systems[systemId].adventurePackLabel)?._id
     const adventure = await adventurePack.getDocument(adventureId)
-    await adventure.sheet.render(true)
+    // Foundry v13 enregistre encore AdventureImporter (V1) comme feuille par défaut. On pré-cache une instance V2
+    // dans `_sheet` pour que `Adventure#import` (qui lit `this.sheet`) la réutilise au lieu d'instancier la V1.
+    const sheet = new foundry.applications.sheets.AdventureImporterV2({document: adventure})
+    adventure._sheet = sheet
+    sheet.render(true)
   }
 
   /**

@@ -15,7 +15,7 @@
         "type": "system",
         "manifest": "https://github.com/12-Monkeys-Developers/cthack/releases/latest/download/system.json",
         "compatibility": {
-          "verified": "5.0.0"
+          "verified": "5.6.0"
         }
       }
     ]
