@@ -1,3 +1,6 @@
+# 1.5.1
+- Adaptation du css des journaux pour le thème Sombre
+
 # 1.5.0
 - Compatibilité avec le système en AppV2
 

@@ -724,3 +724,39 @@ i.icon-affaires-connexes-couleur {
   top: -45px;
   left: calc(50% - 96px);
 }
+
+/* =============================================
+   Dark theme : conserver le rendu clair dans les journaux
+   ============================================= */
+
+.theme-dark .delaware-mod {
+  color: #191813;
+}
+
+.theme-dark .journal-entry-page h1,
+.theme-dark .journal-entry-page h2 {
+  color: #791013;
+}
+
+.theme-dark .journal-entry-page h3,
+.theme-dark .journal-entry-page h4 {
+  color: #47443C;
+}
+
+.theme-dark .journal-entry-page h4 {
+  border-bottom-color: #47443C;
+}
+
+.theme-dark .journal-entry-page h5 {
+  color: #4b596f;
+}
+
+.theme-dark .delaware-mod a.content-link,
+.theme-dark .delaware-mod a.inline-roll {
+  color: #791013;
+  background: transparent;
+}
+
+.theme-dark .delaware-mod a.content-link i {
+  color: #791013;
+}
