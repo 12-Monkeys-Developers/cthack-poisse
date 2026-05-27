@@ -1,4 +1,7 @@
-# 1.5.1
+# 1.5.3
+- Release technique
+
+# 1.5.2
 - Mise en place du déploiement automatique et prise en compte du package par Foundry
 
 # 1.5.1
