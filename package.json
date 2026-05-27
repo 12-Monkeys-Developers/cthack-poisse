@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
   },
   "scripts": {
     "LDBtoYML": "node ./tools/LDBtoYML.mjs",
