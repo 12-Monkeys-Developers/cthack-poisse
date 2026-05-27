@@ -14,7 +14,7 @@ export const ADVENTURE_ID = "mZbPFA1uVvL4WoSN"
 // TODO : Set the journal entry id
 export const WELCOME_JOURNAL_ENTRY_ID = "dUcYjaxFcmnaS0cO" // The Id a journal entry to display after import.
 
-export const MODULE_VERSION = "1.5.0"
+export const MODULE_VERSION = "1.5.2"
 export const ADVENTURE_VERSION = "1.0.0"
 
 export const SYSTEM_ID = "cthack"
